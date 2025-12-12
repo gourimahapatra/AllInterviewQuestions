@@ -1,0 +1,172 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/AB0244C5/Performance.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DPerformance.htm>
+<link rel=3DFile-List href=3D"Performance_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.9826in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.9826in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Performance</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5979=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"MS Gothi=
+c"'>月</span><span
+style=3D'font-family:Calibri'>1</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+9:42</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.0055in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:.9625in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>SQL</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5979=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"MS Gothi=
+c"'>月</span><span
+style=3D'font-family:Calibri'>1</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+9:42</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1729in;margin-left:0in;width:6.0055=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>Q=
+: How do
+you optimize a slow-running query in Snowflake?</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>A=
+: Use
+EXPLAIN to analyze query plan, check micro-partition pruning, avoid SELECT =
+*,
+use</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>m=
+aterialized
+views, scale up or multi-cluster warehouses.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt'><span
+style=3D'font-weight:bold'>Step 1: Identify the Problem</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3Dj=
+a>Use </span><span
+style=3D'font-weight:bold' lang=3Den-US>Query Profile</span><span lang=3Dja=
+> in
+Snowflake to analyze execution details:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt' lang=3Dja>Go to </span>=
+<span
+     style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt' lang=
+=3Den-US>History
+     → Query → Profile</span><span style=3D'font-family:Calibri;font-si=
+ze:11.0pt'
+     lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Look for: </span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Scan =
+Time</span><span
+      style=3D'font-family:Calibri;font-size:11.0pt'> (large tables scanned=
+?)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Join =
+Type</span><span
+      style=3D'font-family:Calibri;font-size:11.0pt'> (broadcast vs partiti=
+oned)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Spill=
+ to
+      Disk</span><span style=3D'font-family:Calibri;font-size:11.0pt'> (ind=
+icates
+      insufficient memory)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Row C=
+ount</span><span
+      style=3D'font-family:Calibri;font-size:11.0pt'> (too many rows proces=
+sed?)</span></li>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

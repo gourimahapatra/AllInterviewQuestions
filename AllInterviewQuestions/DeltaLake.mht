@@ -1,0 +1,437 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/EE3791C5/DeltaLake.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DDeltaLake.htm>
+<link rel=3DFile-List href=3D"DeltaLake_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.109in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.5861in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Interview</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.6687=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+18:54</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:.25in;width:5.85=
+9in'>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>1. What is Big Dat=
+a?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Big Data refers to large, complex da=
+tasets
+that traditional data processing tools cannot handle efficiently. It is
+characterized by the 5 Vs: Volume, Velocity, Variety, Veracity, and Value.<=
+/span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>2. What are the ma=
+in
+components of the Hadoop ecosystem?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>HDFS (storage), MapReduce (processin=
+g), YARN
+(resource management), and tools like Hive, Pig, HBase, and Sqoop.</span></=
+p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>3. What is HDFS?</=
+span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Hadoop Distributed File System is a
+scalable, fault-tolerant storage system that stores data across multiple
+machines.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>4. What is MapRedu=
+ce?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>A programming model for processing l=
+arge
+datasets in parallel across a Hadoop cluster.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>5. What is Apache =
+Spark?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>An open-source, in-memory data proce=
+ssing
+engine that is faster than MapReduce and supports batch and real-time
+analytics.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>6. What is the
+difference between structured and unstructured data?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Structured data is organized (e.g., =
+SQL
+tables), while unstructured data lacks a predefined format (e.g., videos,
+emails).</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>7. What is data
+ingestion in Big Data?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>The process of collecting and import=
+ing data
+for immediate use or storage in a database.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>8. What is the rol=
+e of
+Apache Kafka?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Kafka is a distributed messaging sys=
+tem used
+for real-time data streaming and ingestion.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>9. What is NoSQL?<=
+/span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>A type of database that provides a m=
+echanism
+for storage and retrieval of data that is modeled in means other than tabul=
+ar
+relations.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>10. What is the CAP
+theorem?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>It states that a distributed system =
+can only
+guarantee two of the following three: Consistency, Availability, and Partit=
+ion
+Tolerance.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>EDL
+(Education, Development, and Learning) Interview Questions (11–20)</span>=
+</p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>11. What is your
+approach to adult learning?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>I use principles of andragogy—focu=
+sing on
+self-directed learning, relevance, and practical application.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>12. How do you ass=
+ess
+learning needs?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Through surveys, interviews, perform=
+ance
+data, and collaboration with stakeholders.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>13. What is
+instructional design?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>The process of creating educational
+experiences that make the acquisition of knowledge and skill more efficient=
+ and
+effective.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>14. What is Bloom�=
+��s
+Taxonomy?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>A framework for categorizing educati=
+onal
+goals into levels of complexity and specificity.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>15. How do you mea=
+sure
+training effectiveness?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Using Kirkpatrick’s Four Levels: R=
+eaction,
+Learning, Behavior, and Results.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>16. What is
+microlearning?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>A learning approach that delivers co=
+ntent in
+small, focused bursts, often digitally.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>17. How do you han=
+dle
+different learning styles?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>By incorporating visual, auditory, a=
+nd
+kinesthetic elements into training programs.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>18. What is blended
+learning?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>A mix of traditional face-to-face an=
+d online
+learning experiences.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>19. How do you ens=
+ure
+learner engagement?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Through interactive content, real-wo=
+rld
+examples, gamification, and feedback loops.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>20. What tools do =
+you
+use for e-learning development?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'font-style:italic;background:#FAFAFA'
+lang=3Dja>Answer:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>Tools like Articulate Storyline, Ado=
+be
+Captivate, and LMS platforms like Moodle or TalentLMS.</span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:3.1687in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.6312in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>DeltaLake</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5979=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>31</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+7:42</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:3.1687=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><a
+href=3D"https://docs.delta.io/latest/delta-intro.html"><span lang=3Dja>Intr=
+oduction
+— Delta Lake Documentation</span></a></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

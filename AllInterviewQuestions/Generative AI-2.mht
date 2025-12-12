@@ -1,0 +1,441 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/4C71A9D2/GenerativeAI-2.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DGenerativeAI-2.htm>
+<link rel=3DFile-List href=3D"GenerativeAI-2_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.109in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.5861in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Interview</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.6687=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+18:56</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1729in;margin-left:0in;width:6.109i=
+n'>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>&#128313;</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Foundational Questions</spa=
+n></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>1. What is Generat=
+ive
+AI?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Generative AI refe=
+rs to
+models that can generate new content such as text, images, audio, or code by
+learning patterns from existing data.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>2. How do generati=
+ve
+models differ from discriminative models?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Discriminative</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>models learn the boundary between classes (e.g., logistic
+     regression).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Generative</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>models lea=
+rn the
+     data distribution and can generate new samples (e.g., GANs, VAEs).</sp=
+an></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>3. What are some p=
+opular
+types of generative models?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>GANs
+     (Generative Adversarial Networks)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>VAEs
+     (Variational Autoencoders)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Diffusion
+     Models</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Autoregressive
+     models (e.g., GPT)</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>4. What is a GAN a=
+nd how
+does it work?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>A GAN co=
+nsists
+of two networks: a</span><span style=3D'background:#FAFAFA' lang=3Den-US>&n=
+bsp;generator&nbsp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>that creates fake data and a</span><=
+span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;discriminator&nbsp;</span><=
+span
+style=3D'background:#FAFAFA' lang=3Dja>that tries to distinguish real from =
+fake.
+They train in opposition to improve generation quality.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>5. What is a VAE?<=
+/span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A Variational
+Autoencoder is a generative model that learns a latent space and reconstruc=
+ts
+data by sampling from a probability distribution.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>&#128313;</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Technical &amp; Practical Q=
+uestions</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>6. How do you eval=
+uate
+generative models?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Images:
+     FID (Fréchet Inception Distance), IS (Inception Score)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Text:
+     BLEU, ROUGE, perplexity</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Human evaluation</span><span style=3D'font-family:"Segoe San=
+s";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>is also common.</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>7. What are diffus=
+ion
+models?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>They generate data=
+ by
+reversing a gradual noise process. They're known for producing high-quality
+images (e.g., Stable Diffusion).</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>8. How do transfor=
+mers
+enhance generative tasks?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Transformers use
+self-attention to model long-range dependencies, making them ideal for text,
+image, and audio generation.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>9. What are the
+challenges in training large generative models?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>High
+     computational cost</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Mode
+     collapse (GANs)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Data
+     bias</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Evaluation
+     complexity</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>10. How do you han=
+dle
+bias in generative models?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Use
+     balanced datasets</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Apply
+     fairness constraints</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Post-process
+     outputs</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Conduct
+     regular audits</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>&#128313;</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Behavioral &amp; Situational
+Questions</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>11. Describe a tim=
+e you
+built a generative model from scratch.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>(Expect to explain
+architecture, training process, challenges, and results.)</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>12. How do you man=
+age
+scope creep in research-heavy projects?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Set clear objectiv=
+es,
+define milestones, and communicate regularly with stakeholders.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>13. What would you=
+ do if
+your model generated offensive content?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Audit training dat=
+a,
+apply content filters, and retrain with ethical constraints.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>14. How do you stay
+productive with open-ended problems?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Break tasks into
+micro-goals, document progress, and regularly review literature.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>15. How do you
+prioritize interpretability vs. performance?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Use explainable AI=
+ tools
+(e.g., SHAP) alongside high-performing models, especially in sensitive
+applications.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>&#128313;</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Advanced &amp; Conceptual Q=
+uestions</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>16. What is latent=
+ space
+in generative models?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A compressed
+representation of input data where similar inputs are close together. It’=
+s used
+for interpolation and sampling.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>17. How do GANs an=
+d VAEs
+compare?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>GANs:
+     sharper outputs, adversarial training</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>VAEs:
+     probabilistic, more stable but blurrier outputs</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>18. What is prompt
+engineering in generative AI?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Crafting effective=
+ input
+prompts to guide the output of models like GPT or DALL·E.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>19. What are
+hallucinations in generative models?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>When a model gener=
+ates
+plausible but factually incorrect or nonsensical content.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>20. What’s a rec=
+ent
+innovation in generative AI that excites you?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>(Example: Diffusion
+Transformers, Retrieval-Augmented Generation, or multimodal models like
+GPT-4V.)</span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

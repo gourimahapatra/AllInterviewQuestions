@@ -1,0 +1,2981 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/267198F2/ADF2.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DADF2.htm>
+<link rel=3DFile-List href=3D"ADF2_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.6687in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:.9881in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>ADF</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.6687=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+11:42</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.6791in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.075in;width:1.5638i=
+n'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Ingestion</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.075in;width:1.6=
+687in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+12:16</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:7.6791=
+in'>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span lang=3Dja>Creating a pipeline in</span><span
+lang=3Den-US>&nbsp;Azure Data Factory (ADF)&nbsp;</span><span lang=3Dja>to =
+move
+data from a</span><span lang=3Den-US>&nbsp;Database (DB)&nbsp;</span><span
+lang=3Dja>to</span><span lang=3Den-US>&nbsp;Azure Data Lake Storage Gen1
+(ADLS1)&nbsp;</span><span lang=3Dja>with support for:</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt'>Full Load</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Delta Load</span><=
+/li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Slowly Changing
+     Dimensions (SCD) Type 1, Type 2, and Type 3</span></li>
+</ol>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'>involves several components. Here's a high-level
+architecture and step-by-step breakdown:</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'>Prerequisites</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Azure SQL Database=
+ or
+     any supported source DB</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Azure Data Lake St=
+orage
+     Gen1</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Azure Data Factory
+     instance</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Integration Runtime
+     (Self-hosted if on-prem DB)</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span lang=3Dja>1.</span><span lang=3Den-US=
+>&nbsp;Full
+Load Pipeline</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Steps:</p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>Here’s=
+ a</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;step-by-step guide&nbsp;</s=
+pan><span
+style=3D'background:#FAFAFA' lang=3Dja>to building a</span><span style=3D'b=
+ackground:
+#FAFAFA' lang=3Den-US>&nbsp;Full Load Pipeline&nbsp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>in</span><span style=3D'background:#=
+FAFAFA'
+lang=3Den-US>&nbsp;Azure Data Factory (ADF)&nbsp;</span><span style=3D'back=
+ground:
+#FAFAFA' lang=3Dja>that moves data from a</span><span style=3D'background:#=
+FAFAFA'
+lang=3Den-US>&nbsp;source database&nbsp;</span><span style=3D'background:#F=
+AFAFA'
+lang=3Dja>to</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Az=
+ure Data
+Lake Storage Gen1 (ADLS1)</span><span style=3D'background:#FAFAFA' lang=3Dj=
+a>.</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:C=
+alibri;
+font-size:18.0pt;color:#424242'>&nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step-by-=
+Step:
+Full Load Pipeline in ADF</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 1: =
+Create
+Linked Services</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>These are connecti=
+ons to
+your source and destination.</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source:
+     Azure SQL DB, Oracle, MySQL, etc.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink:
+     Azure Data Lake Storage Gen1</span></li>
+</ul>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>How:</sp=
+an></p>
+
+<ol type=3Da style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Go to</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Manage&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>&gt;</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Linked
+     services&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>&gt;</span><span style=3D'font-fa=
+mily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;New</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Choose
+     your source (e.g., Azure SQL Database).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Enter
+     connection details (server, DB name, credentials).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Repeat
+     for ADLS Gen1.</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 2: =
+Create
+Datasets</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Datasets define the
+structure and location of your data.</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source
+     Dataset: Table or query from your DB.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink
+     Dataset: File format in ADLS1 (e.g., CSV, Parquet).</span></li>
+</ul>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>How:</sp=
+an></p>
+
+<ol type=3Da style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Go to</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Author&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>&gt;</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Datasets&nbsp;=
+</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>&gt;</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;New Dataset</s=
+pan><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Choose
+     your source type (e.g., Azure SQL Table).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Configure
+     table name or query.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Repeat for ADLS1 (e.g., CSV in a folder path like</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>/full_load/yyyy-MM-d=
+d/</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>).</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 3: =
+Create
+the Pipeline</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Go to</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Author&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>&gt;</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Pipelines&nbsp=
+;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>&gt;</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;New Pipeline</=
+span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Drag a</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Copy Data&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>activity onto the canvas.</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 4:
+Configure the Copy Activity</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-top=
+:0pt;
+     margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Segoe San=
+s";
+     font-size:12.0pt;background:#FAFAFA'>Source:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Select
+      your source dataset.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Optionally use a query like</span><span style=3D'font-famil=
+y:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>SELECT * FROM YourTable</span><span style=3D'font-family=
+:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Dja>.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA'>Sink:</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Select
+      your ADLS1 dataset.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Set the file name and folder path dynamically using express=
+ions
+      like:<br>
+            </span><span style=3D'font-family:source-code-pro;font-size:11.=
+25pt;
+      background:#FAFAFA' lang=3Den-US>full_load/@{formatDateTime(utcnow(),
+      'yyyy-MM-dd')}/data.csv</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA'>Mapping:</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Auto-map
+      or manually map columns.</span></li>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 5: =
+Add
+Parameters (Optional)</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>To make the pipeli=
+ne
+reusable:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Add
+     parameters for table name, file name, or folder path.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Use
+     them in dataset and activity expressions.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 6: =
+Add
+Trigger</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Go to</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Add Trigger&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>&gt;</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;New/Edit</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Choose</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Schedule&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(e.g., daily at midnight).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Publish
+     the pipeline.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span lang=3Dja>2.</span><span lang=3Den-US=
+>&nbsp;Delta
+Load Pipeline</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step-by-=
+Step:
+Delta Load Pipeline in ADF</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 1: =
+Create
+a Watermark Control Table</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>In your source dat=
+abase
+(e.g., Azure SQL DB), create a table to store the last successful load time=
+:</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Insert an initial =
+value:</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 2: =
+Create
+Linked Services</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source:
+     Azure SQL Database (or your DB)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink:
+     Azure Data Lake Storage Gen1</span></li>
+</ul>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>Go to</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Manage &gt; Linked Services=
+ &gt;
+New</span><span style=3D'background:#FAFAFA' lang=3Dja>, and configure both=
+.</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 3: =
+Create
+Datasets</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source
+     Dataset: Table or query from your DB</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink
+     Dataset: File format in ADLS1 (e.g., CSV)</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 4: =
+Create
+the Pipeline</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>Go to</s=
+pan><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Author &gt; Pipelines &gt; =
+New
+Pipeline</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 5: =
+Add
+Activities</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>1.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Lookup Activity&nbsp;</span=
+><span
+style=3D'background:#FAFAFA' lang=3Dja>– Get Last Watermark</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Name:</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>LookupWatermark</spa=
+n></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Query:</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>2.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Copy Activity&nbsp;</span><=
+span
+style=3D'background:#FAFAFA' lang=3Dja>– Load Delta Data</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Name:</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>CopyDeltaData</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source
+     Query:</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Sink: ADLS1 folder like</span><span style=3D'font-family:"Se=
+goe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>/delta_load/@{formatDateTime(utcnow(), 'yyyy-MM-dd')}/</s=
+pan></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>3.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Stored Procedure Activity&n=
+bsp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>– Update Watermark</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Name:</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>UpdateWatermark</spa=
+n></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Procedure:</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 6: =
+Add
+Dependencies</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Dja>CopyDeltaData</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>depends on</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     source-code-pro;font-size:12.0pt;background:#FAFAFA' lang=3Den-US>Look=
+upWatermark</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Dja>UpdateWatermark</span><span style=3D'font-family:"Segoe Sans=
+";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>depends on</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     source-code-pro;font-size:12.0pt;background:#FAFAFA' lang=3Den-US>Copy=
+DeltaData</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 7: =
+Add
+Trigger</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Go to</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Add Trigger &gt; New/Edit</span=
+></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Choose
+     a schedule (e.g., every hour or daily)</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Best Pra=
+ctices</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Use</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;UTC timestamps&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>to avoid time zone issues.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;logging&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>and</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;alerts&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>for failures.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Use</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;parameterized queries&nbsp;</sp=
+an><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>for reusability.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span lang=3Dja>3.</span><span lang=3Den-US=
+>&nbsp;SCD
+Implementation</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Common Setup:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Use</spa=
+n><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;Data
+     Flow&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:12.=
+0pt'
+     lang=3Dja>in ADF for transformations.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Maintain=
+ a</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;dimension
+     table&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:12=
+.0pt'
+     lang=3Dja>in a database or ADLS with historical data.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Type 1 (Overwrite)</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Overwrite existing
+     records with new data.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>No history maintai=
+ned.</span></li>
+</ul>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'>ADF Data Flow Logic:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Join source and ta=
+rget
+     on business key.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>If match → updat=
+e all
+     fields.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>If no match → in=
+sert.</span></li>
+</ul>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Type 2 (Historical Tracking)</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Maintain history by
+     adding new rows with versioning or effective dates.</span></li>
+</ul>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'>ADF Data Flow Logic:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Join source and ta=
+rget.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>If data =
+changed
+     → expire old record (</span><span style=3D'font-family:source-code-p=
+ro;
+     font-size:12.0pt' lang=3Den-US>EndDate =3D current_date</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>) and in=
+sert new
+     row with</span><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t'
+     lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+     font-size:12.0pt' lang=3Den-US>StartDate =3D current_date</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>.</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>If new → insert.=
+</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Type 3 (Limited History)</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Track li=
+mited
+     history in additional columns (e.g.,</span><span style=3D'font-family:=
+"Segoe Sans";
+     font-size:12.0pt' lang=3Den-US>&nbsp;</span><span style=3D'font-family=
+:source-code-pro;
+     font-size:12.0pt' lang=3Den-US>PreviousCity</span><span style=3D'font-=
+family:
+     "Segoe Sans";font-size:12.0pt' lang=3Dja>).</span></li>
+</ul>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'>ADF Data Flow Logic:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>If value=
+ changed
+     → update current value and move old value to</span><span style=3D'fo=
+nt-family:
+     "Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt' lang=3Den-US>Pr=
+evious</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>column.<=
+/span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'>Suggested ADF Components</p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>Component</span></p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9645in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>Purpose</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Linked Servi=
+ce</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9645in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Connect to D=
+B and
+  ADLS1</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Dataset</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:2.034in;padding:2.=
+0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Define schem=
+a and
+  file format</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Copy Activit=
+y</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9645in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>For full and=
+ delta
+  loads</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Data Flow</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9645in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>For SCD logi=
+c</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Lookup Activ=
+ity</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9645in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>For delta
+  watermark</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.3104in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Stored Proce=
+dure</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9451in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Optional: up=
+date
+  watermark</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.2916in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Trigger</p>
+  </td>
+  <td style=3D'border-width:0pt;vertical-align:top;width:1.9645in;padding:2=
+.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Schedule or
+  event-based</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:6pt;margin-bottom:0pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span lang=3Dja>Would you like a</span><span lang=3De=
+n-US>&nbsp;visual
+diagram&nbsp;</span><span lang=3Dja>of this pipeline architecture or a</spa=
+n><span
+lang=3Den-US>&nbsp;JSON template&nbsp;</span><span lang=3Dja>for ADF deploy=
+ment?</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span lang=3Dja>Maintaining a</span><span lang=3Den-U=
+S>&nbsp;watermark&nbsp;</span><span
+lang=3Dja>in Azure Data Factory (ADF) is essential for implementing</span><=
+span
+lang=3Den-US>&nbsp;delta loads</span><span lang=3Dja>, where you only extra=
+ct new
+or changed data since the last successful run. Here's how you can do it:</s=
+pan></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'>What is a Watermark?</p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span lang=3Dja>A</span><span lang=3Den-US>&nbsp;wate=
+rmark&nbsp;</span><span
+lang=3Dja>is a value (usually a timestamp or an incrementing ID) that indic=
+ates
+the last successfully loaded record. It helps in identifying new or updated
+records in the source system.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'>How to Maintain a Watermark in ADF</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Option 1: Using a Control Table (Recommende=
+d)</p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt' lang=3Dja>Create a Control Table</span><span style=3D'font-fam=
+ily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp;</span><=
+span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja=
+>in a
+     database (e.g., Azure SQL DB):</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>ADF Pipeline Steps=
+:</span></li>
+</ol>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span lang=3Dja>a.</span><span lang=3Den-US=
+>&nbsp;Lookup
+Activity&nbsp;</span><span lang=3Dja>– Get Last Watermark</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Query the control =
+table:</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span lang=3Dja>b.</span><span lang=3Den-US=
+>&nbsp;Source
+Query&nbsp;</span><span lang=3Dja>– Use Watermark</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>Use the output of =
+the
+     Lookup in your source query:</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span lang=3Dja>c.</span><span lang=3Den-US=
+>&nbsp;Copy
+Activity&nbsp;</span><span lang=3Dja>– Load Data to ADLS</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:18pt;font-family:"=
+Segoe Sans";
+font-size:13.5pt;color:#424242'><span lang=3Dja>d.</span><span lang=3Den-US=
+>&nbsp;Stored
+Procedure Activity&nbsp;</span><span lang=3Dja>– Update Watermark</span><=
+/p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>After successful l=
+oad,
+     update the control table:</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Option 2: Using a File in ADLS</p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt'>Store the watermark value in a small file (e.g., JSON or TXT).=
+</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Use</spa=
+n><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;Get
+     Metadata&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt'
+     lang=3Dja>and</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt'
+     lang=3Den-US>&nbsp;Lookup&nbsp;</span><span style=3D'font-family:"Sego=
+e Sans";
+     font-size:12.0pt' lang=3Dja>to read it.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>After th=
+e load,
+     use</span><span style=3D'font-family:"Segoe Sans";font-size:12.0pt'
+     lang=3Den-US>&nbsp;Set Variable&nbsp;</span><span style=3D'font-family=
+:"Segoe Sans";
+     font-size:12.0pt' lang=3Dja>and</span><span style=3D'font-family:"Sego=
+e Sans";
+     font-size:12.0pt' lang=3Den-US>&nbsp;Copy Activity&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>to overw=
+rite the
+     file with the new watermark.</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'>Best Practices</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Use</spa=
+n><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;UTC
+     timestamps&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:
+     12.0pt' lang=3Dja>to avoid time zone issues.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Always</=
+span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;update
+     the watermark only after a successful load</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Consider=
+</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;retry
+     logic&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:12=
+.0pt'
+     lang=3Dja>and</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt'
+     lang=3Den-US>&nbsp;logging&nbsp;</span><span style=3D'font-family:"Seg=
+oe Sans";
+     font-size:12.0pt' lang=3Dja>for robustness.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>Use</spa=
+n><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;parameterized
+     pipelines&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt' lang=3Dja>for reusability across multiple tables.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>Pipeline Overview</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>LookupWatermark: R=
+eads
+     the last loaded timestamp from a control table.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>CopyNewData: Loads=
+ only
+     new or updated records from the source DB to ADLS1.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>UpdateWatermark: U=
+pdates
+     the control table with the current timestamp after a successful load</=
+span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Strategy
+Options for Delta Load Without CDC Column</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>1.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Hash Comparison (Checksum o=
+r Hash
+Columns)</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>How it works:</spa=
+n></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Generate a</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;hash&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>of each row (e.g., using MD5 or SHA256).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Compare
+     current hash values with previously stored ones.</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Steps:</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA'>Create a hash column in your source query:<=
+/span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Store
+     previous hashes in a staging or history table.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Compare
+     new hashes to detect changes.</span></li>
+</ol>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Pros: Wo=
+rks
+without CDC or timestamps</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Cons:
+Expensive on large tables; requires full scan</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>2.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Full Load + Change Detectio=
+n in ADF</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>How it works:</spa=
+n></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Load the full table into a</span><span style=3D'font-family:=
+"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;staging area&n=
+bsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>in ADLS.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Use</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Data Flows&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>to compare current vs previous data.</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Steps:</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Load full table to</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-c=
+ode-pro;
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:sour=
+ce-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>staging/current/</sp=
+an><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Keep previous load in</span><span style=3D'font-family:"Sego=
+e Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>staging/previous/</span><span style=3D'font-family:"Segoe=
+ Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Use ADF</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Data Flow&nbsp;</span><s=
+pan
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>to:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Join
+      current and previous on primary key</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Detect
+      new or changed rows</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Write
+     only changed rows to final destination.</span></li>
+</ol>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Pros: No=
+ DB
+changes needed</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Cons: Re=
+quires
+storage and compute for comparison</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>3.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Triggers or Audit Tables (I=
+f You
+Can Modify Source)</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>If you can modify =
+the
+source DB:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add a</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;trigger&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>to log inserts/updates into an</span><span style=3D'font-fam=
+ily:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;a=
+udit
+     table</span><span style=3D'font-family:"Segoe Sans";font-size:12.0pt;
+     background:#FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Use
+     this audit table for delta extraction.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>4.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Use Source System Logs or
+Replication Tools</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Some databases (e.=
+g.,
+Oracle, SQL Server, PostgreSQL) support:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Transaction
+     logs</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Log-based replication tools</span><span style=3D'font-family=
+:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(e.g., Debezium, Qlik Replicate)</span></li>
+</ul>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>These can be used =
+to
+extract changes even without CDC columns.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Best Pra=
+ctice
+Recommendation</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>If you</=
+span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;cannot modify the source&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>and</span><span style=3D'background:=
+#FAFAFA'
+lang=3Den-US>&nbsp;no CDC or timestamp exists</span><span style=3D'backgrou=
+nd:#FAFAFA'
+lang=3Dja>, the</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp=
+;hash
+comparison&nbsp;</span><span style=3D'background:#FAFAFA' lang=3Dja>or</spa=
+n><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;full load + diff&nbsp;</spa=
+n><span
+style=3D'background:#FAFAFA' lang=3Dja>approach is your best bet.</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:0pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>Would yo=
+u like a</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;sample ADF Data Flow&nbsp;<=
+/span><span
+style=3D'background:#FAFAFA' lang=3Dja>or</span><span style=3D'background:#=
+FAFAFA'
+lang=3Den-US>&nbsp;SQL script&nbsp;</span><span style=3D'background:#FAFAFA'
+lang=3Dja>for the hash-based delta detection method?</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'
+lang=3Den-US>Winword</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:inherit;font-size:12.0pt;color:#424242'
+lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;back=
+ground:
+#F4F9FD'>what is Copy Behaviour in ADF Sink</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>In</span=
+><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Azure Data Factory (ADF)</s=
+pan><span
+style=3D'background:#FAFAFA' lang=3Dja>, the</span><span style=3D'backgroun=
+d:#FAFAFA'
+lang=3Den-US>&nbsp;Copy Behavior&nbsp;</span><span style=3D'background:#FAF=
+AFA'
+lang=3Dja>setting in the</span><span style=3D'background:#FAFAFA' lang=3Den=
+-US>&nbsp;Sink&nbsp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>(destination) of a</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Copy Activity&nbsp;</span><=
+span
+style=3D'background:#FAFAFA' lang=3Dja>controls</span><span style=3D'backgr=
+ound:#FAFAFA'
+lang=3Den-US>&nbsp;how data is written&nbsp;</span><span style=3D'backgroun=
+d:#FAFAFA'
+lang=3Dja>to the destination. It determines whether data is</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;appended</span><span
+style=3D'background:#FAFAFA' lang=3Dja>,</span><span style=3D'background:#F=
+AFAFA'
+lang=3Den-US>&nbsp;overwritten</span><span style=3D'background:#FAFAFA' lan=
+g=3Dja>,
+or</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;merged</span=
+><span
+style=3D'background:#FAFAFA' lang=3Dja>, and how files are handled.</span><=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Common C=
+opy
+Behavior Options</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>1.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Preserve Hierarchy</span></=
+p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Behavior:
+     Keeps the folder structure from the source.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Use
+     Case: Copying files from one folder structure to another (e.g., blob to
+     ADLS).</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>2.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Flatten Hierarchy</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Behavior:
+     Flattens all files into a single folder.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Use
+     Case: You want all files in one directory regardless of source structu=
+re.</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>3.</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Merge Files</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Behavior:
+     Combines multiple source files into a single output file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Use
+     Case: Consolidating partitioned data into one file.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>File Copy
+Behavior (for file-based sinks like ADLS, Blob)</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8833in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Setting</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:6.2979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.9027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Overwrite</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:6.2791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Replaces
+  existing files with the same name.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8833in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Append</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:6.3673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Adds
+  data to the end of existing files (only supported in some sinks like Azure
+  SQL, not files).</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8833in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Auto</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:6.2979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>ADF
+  decides the best behavior based on sink type.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8833in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Merge</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:6.2979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Combines
+  multiple files into one (when enabled).</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Table Co=
+py
+Behavior (for DB sinks)</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.709in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Setting</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.0326in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.7027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Insert</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.0388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Adds
+  new rows to the table.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.7027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Upsert</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.1083in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Updates
+  existing rows and inserts new ones (requires key).</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.7222in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Update</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.0201in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Only
+  updates existing rows.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.7027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Delete</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.0388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Deletes
+  rows (rarely used in Copy Activity).</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Where to=
+ Set
+It</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>In the</span><span style=3D'font-=
+family:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Copy
+     Activity</span><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>, go to the</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Den-US>&nbsp;Sink&nbsp;</span><span style=3D'font-famil=
+y:"Segoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>tab.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Look for</span><span style=3D'font-family:"Segoe Sans";font-=
+size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;&quot;Copy
+     behavior&quot;&nbsp;</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>or</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>&nbsp;&quot;Write behavior&quot;</span><span style=3D'fon=
+t-family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>.</span></=
+li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Choose
+     the appropriate option based on your use case.</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'
+lang=3Den-US>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:8.9694in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.075in;width:2.8263i=
+n'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Integration
+RunTime</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.075in;width:1.6=
+687in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+12:21</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:8.9694=
+in'>
+
+<p style=3D'margin:0in'><span style=3D'font-family:Calibri;font-size:11.0pt'
+lang=3Dja>In</span><span style=3D'font-family:Calibri;font-size:11.0pt' lan=
+g=3Den-US>&nbsp;</span><span
+style=3D'font-family:"Segoe Sans";font-size:12.0pt;color:#424242;background=
+:#FAFAFA'
+lang=3Den-US>Azure Data Factory (ADF)</span><span style=3D'font-family:Cali=
+bri;
+font-size:11.0pt' lang=3Den-US>, an&nbsp;</span><span style=3D'font-family:=
+"Segoe Sans";
+font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Den-US>Integration
+Runtime (IR)</span><span style=3D'font-family:Calibri;font-size:11.0pt'
+lang=3Den-US>&nbsp;is the&nbsp;</span><span style=3D'font-family:"Segoe San=
+s";
+font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Den-US>compute
+infrastructure</span><span style=3D'font-family:Calibri;font-size:11.0pt'
+lang=3Den-US>&nbsp;used to&nbsp;</span><span style=3D'font-family:"Segoe Sa=
+ns";
+font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Den-US>move, trans=
+form,
+and integrate data</span><span style=3D'font-family:Calibri;font-size:11.0p=
+t'
+lang=3Den-US>&nbsp;across different network environments.</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>What is
+Integration Runtime?</span></p>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>Think of=
+ it as
+the</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;engine&nbsp=
+;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>that runs your data flows, copy acti=
+vities,
+and other tasks in ADF. It connects your source and destination systems and
+performs the actual data movement and transformation.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Types of
+Integration Runtime</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.3458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Type</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.8972in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Description</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:3.9701in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Use Case</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.3458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Azure
+  IR</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.9166in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Fully
+  managed by Microsoft in the cloud</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.102in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Copy
+  data between cloud sources (e.g., Azure SQL to ADLS)</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.3458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Self-hosted
+  IR</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.8972in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Installed
+  on your own machine or VM</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:4.075in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Access
+  on-premises data sources (e.g., SQL Server, Oracle)</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.3458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Azure-SSIS
+  IR</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.8972in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Runs
+  SSIS packages in ADF</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:3.9701in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Lift-and-shift
+  of existing SSIS workloads</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>When Do =
+You
+Choose Which?</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Azure
+     IR: Default for cloud-to-cloud data movement.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Self-hosted
+     IR: Required when:</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Your source is</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;on-premises</s=
+pan><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>You need to access data behind a</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;f=
+irewall</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Azure-SSIS IR: When migrating</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;SSIS packages&=
+nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>to ADF.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>How to S=
+et Up
+an IR</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Go to</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Manage
+     &gt; Integration Runtimes &gt; New</span><span style=3D'font-family:"S=
+egoe Sans";
+     font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Choose
+     the type (Azure, Self-hosted, or SSIS).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Configure
+     settings (region, authentication, etc.).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>For</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Self-hosted</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>, download and install the IR on your machine.</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Example
+Scenario</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>You want to copy data from an</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;on-prem SQL
+     Server&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:1=
+2.0pt;
+     background:#FAFAFA' lang=3Dja>to</span><span style=3D'font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Azure Data Lak=
+e</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>You’ll need a</span><span style=3D'font-family:"Segoe Sans=
+";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Self-hosted IR=
+&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>installed on your local server to securely connect to the on=
+-prem
+     database.</span></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.5in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:.9777in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>SCD</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.6687=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+16:07</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.6729in;margin-left:0in;width:7.5in'>
+
+<p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";font-=
+size:
+12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dja>Implemen=
+ting</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Slowly Changing Dimensions
+(SCDs)&nbsp;</span><span style=3D'background:#FAFAFA' lang=3Dja>in</span><s=
+pan
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Azure Data Factory (ADF)&nb=
+sp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>involves using</span><span style=3D'=
+background:
+#FAFAFA' lang=3Den-US>&nbsp;Mapping Data Flows&nbsp;</span><span
+style=3D'background:#FAFAFA' lang=3Dja>to manage how changes in dimension d=
+ata are
+handled over time. Here's a</span><span style=3D'background:#FAFAFA' lang=
+=3Den-US>&nbsp;step-by-step
+guide&nbsp;</span><span style=3D'background:#FAFAFA' lang=3Dja>for implemen=
+ting</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;SCD Type 1, Type 2, and Type
+3&nbsp;</span><span style=3D'background:#FAFAFA' lang=3Dja>in ADF.</span></=
+p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Prerequi=
+sites</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Source: A table with dimension data (e.g.,</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>Customer</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink:
+     A dimension table in a database or ADLS</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>ADF:
+     Integration Runtime, Linked Services, Datasets</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step-by-=
+Step:
+Implementing SCDs in ADF</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 1: =
+Create
+Linked Services</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source:
+     Azure SQL DB, Oracle, etc.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink:
+     Azure SQL DB, Synapse, or ADLS</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 2: =
+Create
+Datasets</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Source
+     Dataset: Dimension table or query</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sink
+     Dataset: Target dimension table</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 3: =
+Create
+a Data Flow</span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Go to</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Author
+     &gt; Data Flows &gt; New Mapping Data Flow</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add a</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Source&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(your dimension data)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add a</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Sink&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(your dimension table)</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>SCD Type=
+ 1:
+Overwrite Changes (No History)</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Use Case=
+: You
+don’t need to track history, just update the record.</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Steps:</=
+span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Add a</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Join&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>transformation:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Join source and target on the business key (e.g.,</span><sp=
+an
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>CustomerID</span><s=
+pan
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>)</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add a</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Conditional Split</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>If
+      values differ → update</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>If
+      no match → insert</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Sink</span><span style=3D'font-=
+family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>:</span></=
+li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Set to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Update&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>for matched rows</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Set to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Insert&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>for new rows</span></li>
+ </ul>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>SCD Type=
+ 2:
+Track History with New Rows</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Use Case=
+: You
+want to keep historical versions of records.</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Requirem=
+ents:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add columns:</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>StartDate</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>,</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>EndDate</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>,</span><span style=3D'font-family:"Segoe Sans";font-size:12=
+.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>IsCurrent</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Steps:</=
+span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Add a</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Join&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>on business key</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Conditional Split</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>If
+      values changed → expire old row and insert new</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Derived Column</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Set</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fam=
+ily:
+      source-code-pro;font-size:12.0pt;background:#FAFAFA' lang=3Den-US>End=
+Date =3D
+      current_date</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+      background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-family:"Seg=
+oe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>IsCurrent =3D false</span><span style=3D'font-family:"Se=
+goe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>for old row</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Set</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fam=
+ily:
+      source-code-pro;font-size:12.0pt;background:#FAFAFA' lang=3Den-US>Sta=
+rtDate
+      =3D current_date</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+      12.0pt;background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>IsCurrent =3D true</span><span style=3D'font-family:"Seg=
+oe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>for new row</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add two</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Sinks</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>One to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;update&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>old record</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>One to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;insert&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>new record</span></li>
+ </ul>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>SCD Type=
+ 3:
+Track Limited History in Columns</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-size:15.=
+0pt;
+color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+lang=3Dja>Use Case: You want to track only the previous value (e.g.,</span>=
+<span
+style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;</=
+span><span
+style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>Previ=
+ousCity</span><span
+style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>)</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Steps:</=
+span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#424242'><span style=3D'font-family:"Segoe Sans";font-size:12.0p=
+t;
+     font-weight:normal;font-style:normal;font-family:"Segoe Sans";font-siz=
+e:
+     12.0pt;background:#FAFAFA' lang=3Dja>Add a</span><span style=3D'font-f=
+amily:
+     "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+     font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3De=
+n-US>&nbsp;Join&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;background:
+     #FAFAFA' lang=3Dja>on business key</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Conditional Split</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>If
+      value changed → update</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Derived Column</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Move current value to</span><span style=3D'font-family:"Seg=
+oe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>Previous</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>column</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Set
+      new value in current column</span></li>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Sink</span><span style=3D'font-=
+family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>:</span></=
+li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Set to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;Update</span></li>
+ </ul>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 4: =
+Debug
+and Test</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Use</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;Data Preview&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>to validate logic</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Run
+     pipeline with test data</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Step 5:
+Trigger the Pipeline</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add a</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;pipeline&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>that calls the data flow</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Add a</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;trigger&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(manual, scheduled, or event-based)</span></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

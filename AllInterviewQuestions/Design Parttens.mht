@@ -1,0 +1,653 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/2B7BA233/DesignParttens.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DDesignParttens.htm>
+<link rel=3DFile-List href=3D"DesignParttens_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.0055in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.4638in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Concept</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5277=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>1</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:15</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1729in;margin-left:0in;width:6.0055=
+in'>
+
+<p style=3D'margin:0in'><span style=3D'font-family:Calibri;font-size:11.0pt'
+lang=3Dja>Design patterns are</span><span style=3D'font-family:Calibri;font=
+-size:
+11.0pt' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";
+font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Den-US>proven solu=
+tions
+to common software design problems</span><span style=3D'font-family:Calibri;
+font-size:11.0pt' lang=3Den-US>. In Python, they help you write more
+maintainable, scalable, and readable code. Here's a breakdown of some popul=
+ar
+design patterns, categorized and explained with simple examples:</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>&nbsp;</span><span
+style=3D'background:#FAFAFA' lang=3Den-US>1. Creational Patterns</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>These
+deal with</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;object
+creation mechanisms</span><span style=3D'background:#FAFAFA' lang=3Dja>.</s=
+pan></p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-height=
+:21pt;
+font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+style=3D'background:#FAFAFA'>Singleton</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Ensures a
+class has only one instance.</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> Singleton:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>_instance =3D None</=
+span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def __new__(cls):</s=
+pan></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>if
+cls._instance is None:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+; </span><span
+lang=3Den-US>cls._instance =3D super().__new__(cls)</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+cls._instance</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Factory =
+Method</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Creates
+objects without specifying the exact class.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> Dog:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def speak(self):</sp=
+an></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+&quot;Woof!&quot;</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> Cat:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def speak(self):</sp=
+an></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+&quot;Meow!&quot;</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>def</span><span lang=3Den-US> animal_factory(animal_type):</span>=
+</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>if animal_type =3D=3D
+&quot;dog&quot;:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+Dog()</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>elif animal_type =3D=
+=3D
+&quot;cat&quot;:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+Cat()</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:3pt;line-height=
+:24pt;
+font-family:"Segoe Sans";font-size:18.0pt;color:#424242'><span
+style=3D'background:#FAFAFA' lang=3Dja>&nbsp;</span><span style=3D'backgrou=
+nd:#FAFAFA'
+lang=3Den-US>2. Structural Patterns</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>These
+deal with</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;object
+composition</span><span style=3D'background:#FAFAFA' lang=3Dja>.</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-height=
+:21pt;
+font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+style=3D'background:#FAFAFA'>Adapter</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Allows
+incompatible interfaces to work together.</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> EuropeanPlug:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def connect(self):</=
+span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+&quot;220V&quot;</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> USAdapter:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def __init__(self, p=
+lug):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>self.plug
+=3D plug</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def connect(self):</=
+span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+f&quot;Adapted to 110V from {self.plug.connect()}&quot;</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-height=
+:21pt;
+font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+style=3D'background:#FAFAFA'>Decorator</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Adds beh=
+avior
+to objects dynamically.</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>def</span><span lang=3Den-US> bold(func):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def wrapper():</span=
+></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+f&quot;&lt;b&gt;{func()}&lt;/b&gt;&quot;</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>return wrapper</span=
+></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>@</span><span lang=3Den-US>bold</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>def</span><span lang=3Den-US> greet():</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>return &quot;Hello&q=
+uot;</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:3pt;line-height=
+:24pt;
+font-family:"Segoe Sans";font-size:18.0pt;color:#424242'><span
+style=3D'background:#FAFAFA'>3. Behavioral Patterns</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3Dj=
+a>These
+deal with</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;commu=
+nication
+between objects</span><span style=3D'background:#FAFAFA' lang=3Dja>.</span>=
+</p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-height=
+:21pt;
+font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+style=3D'background:#FAFAFA'>Observer</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Notifies
+multiple objects when one changes.</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> Subject:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def __init__(self):<=
+/span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>self._observers
+=3D []</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def attach(self, obs=
+erver):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>self._observers.append(observer)</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def notify(self, mes=
+sage):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>for
+observer in self._observers:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+; </span><span
+lang=3Den-US>observer.update(message)</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> Observer:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def update(self, mes=
+sage):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>print(f&quot;Received:
+{message}&quot;)</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'><span
+style=3D'mso-spacerun:yes'> </span>Strategy</span></p>
+
+<p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-family=
+:"Segoe Sans";
+font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Selects =
+an
+algorithm at runtime.</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>class</span><span lang=3Den-US> Context:</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def __init__(self,
+strategy):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>self.strategy
+=3D strategy</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def execute(self, da=
+ta):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3Den=
+-US>return
+self.strategy(data)</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>def</span><span lang=3Den-US> strategy_upper(text):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>return text.upper()<=
+/span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>def</span><span lang=3Den-US> strategy_lower(text):</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>return text.lower()<=
+/span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>ctx</span><span lang=3Den-US> =3D Context(strategy_upper)</span><=
+/p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>print</span><span lang=3Den-US>(ctx.execute(&quot;Hello&quot;))&n=
+bsp; #
+HELLO</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:3pt;line-height=
+:24pt;
+font-family:"Segoe Sans";font-size:18.0pt;color:#424242'><span
+style=3D'background:#FAFAFA'>Summary Table</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.1131in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Pattern Type</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8861in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Pattern</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.9798in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Purpose</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Creational</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8861in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Singleton</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.9993in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>One
+  instance only</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Creational</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8861in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Factory</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.0277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Create
+  objects flexibly</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Structural</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8861in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Adapter</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.0277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Interface
+  compatibility</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Structural</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.9055in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Decorator</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.0277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Add
+  behavior dynamically</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Behavioral</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8861in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Observer</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.1312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Notify
+  dependents of changes</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Behavioral</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:.8861in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Strategy</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.1006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Switch
+  algorithms at runtime</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

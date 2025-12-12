@@ -1,0 +1,3459 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/2672D8D1/CTE1.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DCTE1.htm>
+<link rel=3DFile-List href=3D"CTE1_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.0055in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.5763in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Database</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5277=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+0:17</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.0055=
+in'>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'>What is a Database?</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>A</span>=
+<span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;database&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>stores d=
+ata in a</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;structured
+     format&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:1=
+2.0pt'
+     lang=3Dja>using</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt'
+     lang=3Den-US>&nbsp;tables&nbsp;</span><span style=3D'font-family:"Sego=
+e Sans";
+     font-size:12.0pt' lang=3Dja>(rows and columns).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>We use</=
+span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;SQL
+     (Structured Query Language)&nbsp;</span><span style=3D'font-family:"Se=
+goe Sans";
+     font-size:12.0pt' lang=3Dja>to interact with the database—e.g., to r=
+etrieve
+     or manipulate data.</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US>Schemas: Organizing Tables</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>A</span>=
+<span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;schema&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>is like =
+a</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;folder&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>on your
+     computer.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>It helps organize =
+tables
+     within a database, making it easier to manage and structure data.</spa=
+n></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US>Database Management System (DB=
+MS)</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>A</span>=
+<span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;DBMS&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>is softw=
+are that
+     manages the database.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>In this =
+course,
+     the DBMS used is</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:
+     12.0pt' lang=3Den-US>&nbsp;PostgreSQL</span><span style=3D'font-family=
+:"Segoe Sans";
+     font-size:12.0pt' lang=3Dja>.</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US>Graphical Interface</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>To inter=
+act with
+     PostgreSQL more easily, we use a GUI tool called</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Den-US>&nbsp=
+;pgAdmin</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt' lang=3Dja>.</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>It allows users to
+     create databases and write SQL queries visually.</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US>Other DBMS Options</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>There are many DBM=
+Ss
+     (e.g., MySQL, Oracle, SQL Server).</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt'>PostgreSQL is a gr=
+eat
+     choice for learning SQL because the skills are transferable across
+     systems.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'><span
+style=3D'mso-spacerun:yes'> </span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:5.3479in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:1.2062=
+in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Select</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+5277in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:20</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:5.3479=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-size:15=
+.0pt;
+ color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+ lang=3Dja>What is</span><span style=3D'font-family:"Segoe Sans";background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;backg=
+round:
+ #FAFAFA' lang=3Den-US>SELECT</span><span style=3D'font-family:"Segoe Sans";
+ background:#FAFAFA' lang=3Dja>?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>The</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fam=
+ily:
+      source-code-pro;font-size:12.0pt;background:#FAFAFA' lang=3Den-US>SEL=
+ECT</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>keyword is the most basic and
+      essential SQL command.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>It is used to</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;retrieve data=
+&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>from a database.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#59=
+5959'>&nbsp;</cite></p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.1722in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.2083in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Count</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5277=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:39</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.1722=
+in'>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18.=
+0pt;
+color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+lang=3Dja>&nbsp;</span><span style=3D'font-family:source-code-pro;backgroun=
+d:#FAFAFA'
+lang=3Den-US>COUNT()</span><span style=3D'font-family:"Segoe Sans";backgrou=
+nd:#FAFAFA'
+lang=3Den-US>&nbsp;Function in SQL</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Purpose</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Used to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;count the number of rows=
+&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>in a table or the number of non-null values in a specific co=
+lumn.</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Important
+Notes</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Dja>COUNT(*)</span><span style=3D'font-family:"Segoe Sans";font-=
+size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>is the most
+     common and reliable way to count rows.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Dja>COUNT(column_name)</span><span style=3D'font-family:"Segoe S=
+ans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>may return a</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;lower number&n=
+bsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>if the column contains</span><span style=3D'font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>NULL</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>values.</s=
+pan></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;font-size:=
+11.0pt;
+     color:#424242'>
+     <div style=3D'direction:ltr'>
+     <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=
+=3D'direction:
+      ltr;border-collapse:collapse;border-style:solid;border-color:#A3A3A3;
+      border-width:1pt' title=3D"" summary=3D"">
+      <tr>
+       <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1p=
+t;
+       vertical-align:top;width:5.1541in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+       <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span
+       style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Dja>C=
+OUNT(DISTINCT
+       column_name)</span><span style=3D'font-family:"Segoe Sans";backgroun=
+d:
+       #FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe=
+ Sans";
+       background:#FAFAFA' lang=3Dja>returns the number of</span><span
+       style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&=
+nbsp;unique
+       non-null values</span><span style=3D'font-family:"Segoe Sans";backgr=
+ound:
+       #FAFAFA' lang=3Dja>.</span></p>
+       </td>
+       <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1p=
+t;
+       vertical-align:top;width:.5548in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+       <p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#4=
+24242'
+       lang=3Den-US>&nbsp;</p>
+       </td>
+      </tr>
+     </table>
+     </div>
+ </li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Performance
+Considerations</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>COUNT(*)</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>is generally</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;optimized&nbsp=
+;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>by most database engines and performs well, even on large ta=
+bles.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>COUNT(DISTINCT column)</span><span style=3D'font-family:"=
+Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>can be</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;more resource-intensive</span><=
+span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>, especially on large datasets, because it requires sorting =
+or
+     hashing to identify unique values.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Indexes on the counted column can</span><span style=3D'font-=
+family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;i=
+mprove
+     performance</span><span style=3D'font-family:"Segoe Sans";font-size:12=
+.0pt;
+     background:#FAFAFA' lang=3Dja>, especially for</span><span style=3D'fo=
+nt-family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>COUNT(DISTINCT ...)</span><span style=3D'font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>.</span></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.3305in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.075in;width:1.2944i=
+n'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Where</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.075in;width:1.5=
+277in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:42</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.3305=
+in'>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18.=
+0pt;
+color:#424242' lang=3Den-US><span style=3D'font-family:source-code-pro;back=
+ground:
+#FAFAFA'>WHERE</span><span style=3D'font-family:"Segoe Sans";background:#FA=
+FAFA'>&nbsp;Clause
+in SQL</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Purpose</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Filters
+     rows based on specified conditions.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Used with</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     source-code-pro;font-size:12.0pt;background:#FAFAFA' lang=3Den-US>SELE=
+CT</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>,</span><span style=3D'font-family:"Segoe Sans";font-size:12=
+.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>UPDATE</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>,</span><span style=3D'font-family:"Segoe Sans";font-size:12=
+.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>DELETE</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>, etc.</span></li>
+</ul>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18.=
+0pt;
+color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+lang=3Dja>Common</span><span style=3D'font-family:"Segoe Sans";background:#=
+FAFAFA'
+lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;backgr=
+ound:
+#FAFAFA' lang=3Den-US>WHERE</span><span style=3D'font-family:"Segoe Sans";
+background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"S=
+egoe Sans";
+background:#FAFAFA' lang=3Dja>Conditions</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Condition Type</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Example</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4631in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Comparison</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  age &gt; 30</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4916in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Filters
+  rows where age is greater than 30</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Equality</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  city =3D 'Tokyo'</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4631in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Matches
+  exact value</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Inequality</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  salary !=3D 50000</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4631in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Excludes
+  specific value</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Range</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  age BETWEEN 20 AND 30</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4631in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Inclusive
+  range</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.3145in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Set
+  Membership</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  country IN ('US', 'UK', 'JP')</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Matches
+  any value in a list</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Pattern
+  Matching</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  name LIKE 'A%'</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4916in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Matches
+  names starting with 'A'</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Null
+  Check</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  email IS NULL</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4631in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Checks
+  for missing values</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Logical
+  Operators</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3243in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  age &gt; 30 AND city =3D 'Tokyo'</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4916in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Combines
+  multiple conditions</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.2951in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Negation</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>WHERE
+  NOT (status =3D 'inactive')</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.4444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Excludes
+  rows</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:18.0pt;color:#424242'
+lang=3Den-US>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>SELECT&nbsp;*&nbsp;FROM&nbsp;employees</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>WHERE&nbsp;department&nbsp;=3D&nbsp;'Sales'</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;&nbsp;AND&nbsp;hire_date&nbsp;BETWEEN&nbsp;'2020-01-01'&nbsp;AND=
+&nbsp;'2023-12-31'</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;&nbsp;AND&nbsp;salary&nbsp;&gt;&nbsp;50000</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>ORDER&nbsp;BY&nbsp;hire_date&nbsp;DESC</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>LIMIT&nbsp;10;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Performance
+Considerations</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Factor</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Impact</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.577in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Tips</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Indexes</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>✅ Improves performance for </span><span
+  style=3D'font-family:source-code-pro' lang=3Den-US>WHERE</span><span
+  style=3D'font-family:"Segoe Sans"' lang=3Dja> on indexed columns</span></=
+p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.6055in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Use
+  indexes on frequently filtered columns</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Functions
+  in WHERE</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>❌
+  Slows down queries</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.6381in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>Avoid wrapping columns in functions (e.g., </span=
+><span
+  style=3D'font-family:source-code-pro' lang=3Den-US>WHERE YEAR(date) =3D 2=
+023</span><span
+  style=3D'font-family:"Segoe Sans"' lang=3Dja>)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>LIKE
+  with wildcards</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>❌ Slow with leading </span><span style=3D'font-=
+family:
+  source-code-pro' lang=3Den-US>%</span><span style=3D'font-family:"Segoe S=
+ans"'
+  lang=3Dja> (e.g., </span><span style=3D'font-family:source-code-pro' lang=
+=3Den-US>%abc</span><span
+  style=3D'font-family:"Segoe Sans"' lang=3Dja>)</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.6055in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>Prefer </span><span style=3D'font-family:source-c=
+ode-pro'
+  lang=3Den-US>LIKE 'abc%'</span><span style=3D'font-family:"Segoe Sans"' l=
+ang=3Dja>
+  or use full-text search</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>IN
+  vs. OR</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>✅ </span><span style=3D'font-family:source-code=
+-pro'
+  lang=3Den-US>IN</span><span style=3D'font-family:"Segoe Sans"' lang=3Dja>=
+ is often
+  more efficient than multiple </span><span style=3D'font-family:source-cod=
+e-pro'
+  lang=3Den-US>OR</span><span style=3D'font-family:"Segoe Sans"' lang=3Dja>=
+s</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.6055in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>Use </span><span style=3D'font-family:source-code=
+-pro'
+  lang=3Den-US>IN</span><span style=3D'font-family:"Segoe Sans"' lang=3Dja>=
+ for
+  multiple value matches</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>BETWEEN</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>✅
+  Efficient for range queries on indexed columns</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.6055in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Works
+  well with numeric and date ranges</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>NULL
+  checks</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>⚠️
+  May bypass indexes</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.7083in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Use
+  with care; consider default values if possible</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.109in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Complex
+  logic</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.3965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>❌
+  Can reduce optimizer efficiency</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:2.6055in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Break
+  into simpler queries if needed</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Performa=
+nce
+Considerations</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Operator</span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:5.0069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  style=3D'font-weight:bold'>Performance Tip</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>AND</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:5.0069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  lang=3Dja>✅Efficient when used with </span><span lang=3Den-US>indexed c=
+olumns</span><span
+  lang=3Dja>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>OR</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:5.0069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fon=
+t-family:
+  "Segoe Sans"' lang=3Dja>⚠️ Can be </span><span style=3D'font-family:"=
+Segoe Sans"'
+  lang=3Den-US>slower</span><span style=3D'font-family:"Segoe Sans"' lang=
+=3Dja>,
+  especially if columns are not indexed. Use </span><span style=3D'font-fam=
+ily:
+  source-code-pro' lang=3Den-US>IN</span><span style=3D'font-family:"Segoe =
+Sans"'
+  lang=3Dja> instead when possible.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;color=
+:#424242'>NOT</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:5.0069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'><span
+  lang=3Dja>⚠️ May </span><span lang=3Den-US>bypass indexes</span><span=
+ lang=3Dja>,
+  leading to full table scans. Use with care.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:1.0763in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>Parentheses</p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:top;
+  width:5.0069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#4=
+24242'>✅
+  Helps the query planner optimize logic. Always use for clarity and
+  correctness.</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.4458in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:1.5173=
+in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>GroupBY</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+5277in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:42</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.4458=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18=
+.0pt;
+ color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+ lang=3Dja>&nbsp;What is</span><span style=3D'font-family:"Segoe Sans";back=
+ground:
+ #FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-=
+pro;
+ background:#FAFAFA' lang=3Den-US>GROUP BY</span><span style=3D'font-family=
+:"Segoe Sans";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"=
+Segoe Sans";
+ background:#FAFAFA' lang=3Dja>in SQL?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>The</span>=
+<span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>GROU=
+P BY</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>clause is =
+used to
+ arrange identical data into groups. It is often used with aggregate functi=
+ons
+ like</span><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;backg=
+round:
+ #FAFAFA' lang=3Den-US>COUNT()</span><span style=3D'font-family:"Segoe Sans=
+";
+ background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-family:"Segoe Sa=
+ns";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:s=
+ource-code-pro;
+ background:#FAFAFA' lang=3Den-US>SUM()</span><span style=3D'font-family:"S=
+egoe Sans";
+ background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-family:"Segoe Sa=
+ns";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:s=
+ource-code-pro;
+ background:#FAFAFA' lang=3Den-US>AVG()</span><span style=3D'font-family:"S=
+egoe Sans";
+ background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-family:"Segoe Sa=
+ns";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:s=
+ource-code-pro;
+ background:#FAFAFA' lang=3Den-US>MAX()</span><span style=3D'font-family:"S=
+egoe Sans";
+ background:#FAFAFA' lang=3Dja>, and</span><span style=3D'font-family:"Sego=
+e Sans";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:s=
+ource-code-pro;
+ background:#FAFAFA' lang=3Den-US>MIN()</span><span style=3D'font-family:"S=
+egoe Sans";
+ background:#FAFAFA' lang=3Dja>.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12820=
+4;
+ Basic Syntax:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12831=
+2;
+ Common Use Cases</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Use Case</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.2395in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Example</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Count
+   items per category</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.2395in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;
+   color:#424242'>SELECT category, COUNT(*) FROM products GROUP BY category=
+;</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Total
+   sales per region</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.2395in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;
+   color:#424242'>SELECT region, SUM(sales) FROM orders GROUP BY region;</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Average
+   score per student</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.2395in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;
+   color:#424242'>SELECT student_id, AVG(score) FROM grades GROUP BY
+   student_id;</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Advanced
+ Options</span></p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA' lang=3Dja>1.</span><span style=3D'background:=
+#FAFAFA'
+ lang=3Den-US>&nbsp;GROUP BY Multiple Columns</span></p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA' lang=3Dja>2.</span><span style=3D'background:=
+#FAFAFA'
+ lang=3Den-US>&nbsp;GROUP BY with HAVING</span></p>
+ <p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-famil=
+y:
+ "Segoe Sans";font-size:12.0pt;color:#424242'><span style=3D'background:#FA=
+FAFA'>Used
+ to filter groups after aggregation.</span></p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA' lang=3Dja>3.</span><span style=3D'background:=
+#FAFAFA'
+ lang=3Den-US>&nbsp;GROUP BY with JOIN</span></p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA' lang=3Dja>4.</span><span style=3D'background:=
+#FAFAFA'
+ lang=3Den-US>&nbsp;GROUP BY ROLLUP / CUBE (in some DBs)</span></p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:Calibri;font-size:15.0pt;color:#424242' lang=3Den-US>&nbs=
+p;</p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'>ROLLUP</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>:
+      Adds subtotals and grand totals.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'>CUBE</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>:
+      Adds subtotals for all combinations.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>⚙️
+ Performance Considerations</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.534in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Factor</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.55in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Impact</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.534in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Indexes</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.55in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fo=
+nt-family:
+   "Segoe Sans"' lang=3Dja>Indexes on </span><span style=3D'font-family:sou=
+rce-code-pro'
+   lang=3Den-US>GROUP BY</span><span style=3D'font-family:"Segoe Sans"' lan=
+g=3Dja>
+   columns can improve performance.</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.534in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Data
+   Volume</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.55in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Large
+   datasets may require query optimization or partitioning.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.534in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Temporary
+   Tables</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.55in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Some
+   engines use temp tables for grouping—watch memory usage.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.534in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Parallel
+   Execution</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.55in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Modern
+   DBs can parallelize aggregation for speed.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.5534in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>**Avoid
+   SELECT ***</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:4.5305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Only
+   select necessary columns to reduce I/O.</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in'><span style=3D'font-family:Calibri;font-size:11.0p=
+t'
+ lang=3Den-US><br>
+  </span><span style=3D'font-family:"Segoe Sans";font-size:18.0pt;color:#42=
+4242;
+ background:#FAFAFA' lang=3Dja>Common Interview Questions</span></p>
+ <ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;marg=
+in-bottom:
+  0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:no=
+rmal'>
+  <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;
+      margin-top:0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-f=
+amily:
+      "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+      font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3D=
+ja>What
+      is the difference between</span><span style=3D'font-family:"Segoe San=
+s";
+      font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Se=
+goe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;font-weight:nor=
+mal;
+      font-style:normal;font-family:source-code-pro;font-size:12.0pt;
+      background:#FAFAFA' lang=3Den-US>WHERE</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+      font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Se=
+goe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;font-weight:normal;
+      font-style:normal;font-family:"Segoe Sans";font-size:12.0pt;backgroun=
+d:
+      #FAFAFA' lang=3Dja>and</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;font-weight:normal;font-style:normal;font-family:"Se=
+goe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;font-weight:nor=
+mal;
+      font-style:normal;font-family:source-code-pro;font-size:12.0pt;
+      background:#FAFAFA' lang=3Den-US>HAVING</span><span style=3D'font-fam=
+ily:
+      "Segoe Sans";font-size:12.0pt;font-weight:normal;font-style:normal;
+      font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3D=
+ja>?</span></li>
+  <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0i=
+n;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#4=
+24242'><span
+       style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FA=
+FAFA'
+       lang=3Dja>WHERE</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+       12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'
+       lang=3Dja>filters rows before grouping;</span><span style=3D'font-fa=
+mily:
+       "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp=
+;</span><span
+       style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FA=
+FAFA'
+       lang=3Den-US>HAVING</span><span style=3D'font-family:"Segoe Sans";
+       font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'
+       lang=3Dja>filters groups after aggregation.</span></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Dja>Can you use</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>GROUP BY</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>without an aggregate function?</=
+span></li>
+  <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0i=
+n;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#4=
+24242'><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'>Yes,
+       but it's rare. It just groups rows without summarizing.</span></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Dja>What happens if you</s=
+pan><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>GROUP BY</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>a column not in</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>SELECT</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>?</span></li>
+  <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0i=
+n;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#4=
+24242'><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'>It’s
+       invalid unless the column is used in an aggregate function or is
+       functionally dependent.</span></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Dja>How does</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>GROUP BY</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>differ from</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>PARTITION BY</span>=
+<span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>?</span></li>
+  <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0i=
+n;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#4=
+24242'><span
+       style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FA=
+FAFA'
+       lang=3Dja>GROUP BY</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+       12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'
+       lang=3Dja>aggregates rows;</span><span style=3D'font-family:"Segoe S=
+ans";
+       font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+       style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FA=
+FAFA'
+       lang=3Den-US>PARTITION BY</span><span style=3D'font-family:"Segoe Sa=
+ns";
+       font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'
+       lang=3Dja>is used with window functions to keep row-level detail.</s=
+pan></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Dja>How do you optimize a =
+slow</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>GROUP BY</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>query?</span></li>
+  <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0i=
+n;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#4=
+24242'><span
+       style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAF=
+A'>Use
+       indexes, reduce columns, filter early, consider materialized views.<=
+/span></li>
+  </ul>
+ </ol>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:Calibri;font-size:12.=
+0pt;
+ color:#424242' lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.75in;font-family:Calibri;font-size:12.=
+0pt;
+ color:#424242' lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>Great! Let=
+'s dive
+ deeper into</span><span style=3D'font-family:"Segoe Sans";background:#FAFA=
+FA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;backg=
+round:
+ #FAFAFA' lang=3Den-US>ROLLUP</span><span style=3D'font-family:"Segoe Sans";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"=
+Segoe Sans";
+ background:#FAFAFA' lang=3Dja>and</span><span style=3D'font-family:"Segoe =
+Sans";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:s=
+ource-code-pro;
+ background:#FAFAFA' lang=3Den-US>CUBE</span><span style=3D'font-family:"Se=
+goe Sans";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"=
+Segoe Sans";
+ background:#FAFAFA' lang=3Dja>in SQL, which are powerful extensions of the=
+</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>GROU=
+P BY</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>clause use=
+d for
+ generating subtotals and grand totals in reports.</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18=
+.0pt;
+ color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+ lang=3Dja>&#128311; 1.</span><span style=3D'font-family:"Segoe Sans";backg=
+round:
+ #FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-=
+pro;
+ background:#FAFAFA' lang=3Den-US>GROUP BY ROLLUP</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>✅ Pur=
+pose:</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Dja>ROLLUP<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>creates su=
+btotals
+ that roll up from the most detailed level to a grand total.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12820=
+4;
+ Syntax:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>SELECT</span><span
+ lang=3Den-US> department, role, SUM(salary)</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>FROM</span><span
+ lang=3Den-US> employees</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>GROUP</span><span
+ lang=3Den-US> BY ROLLUP(department, role);</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+Calibri;
+ font-size:15.0pt;color:#424242'>&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12820=
+2;
+ Output Example:</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0506in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>department</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>role</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9854in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>SUM(salary)</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>HR</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Manager</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>100000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>HR</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Recruiter</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>80000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>HR</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>180000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>IT</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9201in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Developer</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>120000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>IT</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Analyst</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>90000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>IT</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>210000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>390000</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12950=
+4;
+ Notes:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Dja>NULL</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fam=
+ily:
+      "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>in the re=
+sult
+      indicates a subtotal or total.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>The order of columns in</span><span style=3D'font-family:"S=
+egoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>ROLLUP</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>matters: it rolls up from right to left.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18=
+.0pt;
+ color:#424242'><span style=3D'font-family:"Segoe Sans";background:#FAFAFA'
+ lang=3Dja>&#128310; 2.</span><span style=3D'font-family:"Segoe Sans";backg=
+round:
+ #FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-=
+pro;
+ background:#FAFAFA' lang=3Den-US>GROUP BY CUBE</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>✅ Pur=
+pose:</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Dja>CUBE</s=
+pan><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>generates
+ subtotals for</span><span style=3D'font-family:"Segoe Sans";background:#FA=
+FAFA'
+ lang=3Den-US>&nbsp;all combinations&nbsp;</span><span style=3D'font-family=
+:"Segoe Sans";
+ background:#FAFAFA' lang=3Dja>of the grouped columns, including the grand =
+total.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12820=
+4;
+ Syntax:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>SELECT</span><span
+ lang=3Den-US> department, role, SUM(salary)</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>FROM</span><span
+ lang=3Den-US> employees</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>GROUP</span><span
+ lang=3Den-US> BY CUBE(department, role);</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+Calibri;
+ font-size:15.0pt;color:#424242'>&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12820=
+2;
+ Output Example:</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0506in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>department</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>role</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9854in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>SUM(salary)</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>HR</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Manager</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>100000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>HR</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Recruiter</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>80000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>HR</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>180000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>IT</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9201in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Developer</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>120000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>IT</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Analyst</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>90000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>IT</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>210000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Manager</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>100000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Recruiter</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>80000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9201in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Developer</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>120000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Analyst</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>90000</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.0312in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>NULL</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.8819in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>390000</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12950=
+4;
+ Notes:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Dja>CUBE</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fam=
+ily:
+      "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>is more
+      comprehensive than</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>ROLLUP</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>It
+      can be more performance-intensive due to the number of combinations.<=
+/span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>⚙️
+ Performance Tips</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.4708in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Tip</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:3.7555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Description</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.4708in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Use
+   filters</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:3.8152in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fo=
+nt-family:
+   "Segoe Sans"' lang=3Dja>Apply </span><span style=3D'font-family:source-c=
+ode-pro'
+   lang=3Den-US>WHERE</span><span style=3D'font-family:"Segoe Sans"' lang=
+=3Dja>
+   clauses to reduce data before grouping.</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.4708in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fo=
+nt-family:
+   "Segoe Sans"' lang=3Dja>Use </span><span style=3D'font-family:source-cod=
+e-pro'
+   lang=3Den-US>HAVING</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:3.7555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Filter
+   out unnecessary subtotal rows.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.4708in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Indexing</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:3.825in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Index
+   columns used in grouping for faster aggregation.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.4902in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Materialized
+   views</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:3.7361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Precompute
+   and store results for large datasets.</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:5.7416in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.5319in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Order
+BY</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5277=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:25</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:5.7416=
+in'>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:"=
+Segoe Sans";
+font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>ORDER BY
+Clause in SQL</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Purpose</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Used to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;sort query results&nbsp;=
+</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>based on one or more columns.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Sorting
+     can be:</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Alphabetical</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(for text)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Numerical</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'fo=
+nt-family:
+     "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>(for numbe=
+rs)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Chronological</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>(for dates)</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Basic
+Syntax</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Dja>ASC</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>=3D Ascending (default)=
+</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Dja>DESC</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>=3D Descending</span></=
+li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>SELECT</span><span lang=3Den-US> first_name, last_name</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>FROM</span><span lang=3Den-US> actor</span></p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'><span
+lang=3Dja>ORDER</span><span lang=3Den-US> BY first_name DESC, last_name ASC=
+;</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>You
+     can sort by multiple columns to break ties.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Adding</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:12.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fami=
+ly:source-code-pro;
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>ASC</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+     12.0pt;background:#FAFAFA' lang=3Dja>explicitly improves</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>&nbsp;readability</span><span style=3D'font-family:"Segoe=
+ Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>, even though it’s the
+     default.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>Formatting
+     (line breaks, spacing) doesn’t affect SQL execution.</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'>=
+&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.0055in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.3784in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Distinct</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5277=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:28</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.0055=
+in'>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Purpose<=
+/span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Used to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;return only unique
+     (non-duplicate) values&nbsp;</span><span style=3D'font-family:"Segoe S=
+ans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>from a column or combin=
+ation
+     of columns.</span></li>
+</ul>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#703=
+0A0'><span
+     style=3D'font-family:Calibri;font-size:12.0pt;background:#FAFAFA' lang=
+=3Dja>SELECT</span><span
+     style=3D'font-family:Calibri;font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US> DISTINCT first_name FROM actor ORDER BY first_name;</spa=
+n></li>
+</ul>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Returns</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;unique combinations&nbsp=
+;</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>of the selected columns.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+>If
+     any column value differs, the row is considered distinct.</span></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.109in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.0847in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Limit</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5277=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+8:33</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.109i=
+n'>
+
+<p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-size:18.=
+0pt;
+color:#424242'><span style=3D'font-family:source-code-pro;background:#FAFAF=
+A'
+lang=3Dja>LIMIT</span><span style=3D'font-family:"Segoe Sans";background:#F=
+AFAFA'
+lang=3Den-US>&nbsp;</span><span style=3D'font-family:"Segoe Sans";backgroun=
+d:#FAFAFA'
+lang=3Dja>Clause in SQL</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'background:#FAF=
+AFA'>Purpose</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Used to</span><span style=3D'font-family:"Segoe Sans";font-s=
+ize:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;restrict the number of
+     rows&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:12.=
+0pt;
+     background:#FAFAFA' lang=3Dja>returned in a query result.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Helpful for</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;previewing
+     data&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:12.=
+0pt;
+     background:#FAFAFA' lang=3Dja>or</span><span style=3D'font-family:"Seg=
+oe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;testing
+     queries&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+     background:#FAFAFA' lang=3Dja>without loading the entire dataset.</spa=
+n></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3Dj=
+a>SELECT</span><span
+lang=3Den-US> * FROM rental</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3Dj=
+a>ORDER</span><span
+lang=3Den-US> BY rental_date DESC</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3Dj=
+a>LIMIT</span><span
+lang=3Den-US> 10;</span></p>
+
+<p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:"=
+Segoe Sans";
+font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Performa=
+nce
+Considerations</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Den-US>Improves performance&nbsp;</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>when querying large tab=
+les by
+     reducing the amount of data retrieved.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>Useful for</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+     12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;quick previews&nbsp;</sp=
+an><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>or</span><span style=3D'font-family:"Segoe Sans";font-size:1=
+2.0pt;
+     background:#FAFAFA' lang=3Den-US>&nbsp;debugging</span><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#424=
+242'><span
+     style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+     lang=3Dja>However, when used with</span><span style=3D'font-family:"Se=
+goe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+     style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAFA=
+FA'
+     lang=3Den-US>ORDER BY</span><span style=3D'font-family:"Segoe Sans";
+     font-size:12.0pt;background:#FAFAFA' lang=3Dja>, performance depends o=
+n:</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Indexes
+      on the sorted column</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Table
+      size</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Sort
+      complexity</span></li>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'>=
+&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.4458in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:.9534i=
+n'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>CTE</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+5277in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+9:32</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.4458=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>What is=
+ a CTE
+ (Common Table Expression)?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>A</span><s=
+pan
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;C=
+TE&nbsp;</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>is a tempo=
+rary
+ result set defined within the execution scope of a single SQL query. It is
+ created using the</span><span style=3D'font-family:"Segoe Sans";background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-family:source-code-pro;backg=
+round:
+ #FAFAFA' lang=3Den-US>WITH</span><span style=3D'font-family:"Segoe Sans";
+ background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-family:"=
+Segoe Sans";
+ background:#FAFAFA' lang=3Dja>clause and can be referenced like a table or=
+ view
+ in the main query.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>✅ Syn=
+tax:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>SELECT</span><span
+ lang=3Den-US> title, rental_count</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>FROM</span><span
+ lang=3Den-US> (</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>SELECT film_id, title, COUNT(rental_id) AS
+ rental_count</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>FROM film</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>JOIN inventory USING (film_id)</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>JOIN rental USING (inventory_id)</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>GROUP BY film_id, title</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>)</span><span
+ lang=3Den-US> AS subquery</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>WHERE</span><span
+ lang=3Den-US> rental_count &gt; 30;</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+CTE:<br>
+  &nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>WITH</span><span
+ lang=3Den-US> rental_stats AS (</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>SELECT film_id, title, COUNT(rental_id) AS
+ rental_count</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>FROM film</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>JOIN inventory USING (film_id)</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>JOIN rental USING (inventory_id)</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>GROUP BY film_id, title</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>)</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>SELECT</span><span
+ lang=3Den-US> title, rental_count</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>FROM</span><span
+ lang=3Den-US> rental_stats</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>WHERE</span><span
+ lang=3Den-US> rental_count &gt; 30;</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12791=
+9;
+ Purpose and Benefits</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Improves
+      readability: Breaks complex queries into logical parts.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Simplifies
+      maintenance: Modify logic in one place instead of multiple subqueries=
+.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Reusable:
+      Can be referenced multiple times in the same query.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Scoped:
+      Exists only during the execution of the query (unlike views).</span><=
+/li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12951=
+4;
+ Example Use Case</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Goal: F=
+ind
+ movies with more than 30 rentals.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Without=
+ CTE:</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>With CT=
+E:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>⚙️
+ Performance Considerations</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Factor</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:5.1277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Impact</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Query
+   Planning</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:5.1277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>CTEs
+   are often inlined (like subqueries), but in some databases (e.g., Postgr=
+eSQL
+   pre-v12), they are materialized, which can hurt performance.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.975in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Materialization</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:5.1083in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>If
+   the CTE is large and reused multiple times, materialization can be
+   beneficial.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Index
+   Usage</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:5.1277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>CTEs
+   don’t support indexes directly, but underlying tables do.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Optimization</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:5.1277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Some
+   databases optimize CTEs like subqueries; others treat them as separate
+   blocks.</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:.9555in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Recursive
+   CTEs</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:5.1277in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Can
+   be powerful but may be slower if not carefully written.</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>&#12817=
+2;
+ Interview Tips</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA'>Q: When would you use a CTE over=
+ a
+      subquery?</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>A:
+      When the logic is reused or the query becomes too complex to read.</s=
+pan></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA'>Q: What’s the difference betwe=
+en a
+      CTE and a view?</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>A: A
+      view is stored in the database and reusable across queries; a CTE is
+      temporary and scoped to a single query.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;margin-to=
+p:
+      0pt;margin-bottom:6pt;color:#424242'><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA'>Q: Can CTEs be recursive?</span>=
+</li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>A:
+      Yes, recursive CTEs are used for hierarchical or tree-structured data=
+.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt'><span style=3D'font-family:C=
+alibri;
+ font-size:11.0pt' lang=3Den-US>Y</span><span style=3D'font-family:"Segoe S=
+ans";
+ font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Dja>es, you</span=
+><span
+ style=3D'font-family:"Segoe Sans";font-size:12.0pt;color:#424242;backgroun=
+d:
+ #FAFAFA' lang=3Den-US>&nbsp;can use Common Table Expressions (CTEs)&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";font-size:12.0pt;color:#424242;backgroun=
+d:
+ #FAFAFA' lang=3Dja>in different queries within a</span><span style=3D'font=
+-family:
+ "Segoe Sans";font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Den-=
+US>&nbsp;Stored
+ Procedure (SP)</span><span style=3D'font-family:"Segoe Sans";font-size:12.=
+0pt;
+ color:#424242;background:#FAFAFA' lang=3Dja>, but with some important
+ considerations:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>✅</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;What You Can Do</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>You can use</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;multiple CTEs=
+&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>in a stored procedure.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Each</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;individual query&nbsp;</span><=
+span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>(like a</span><span style=3D'font-family:"Segoe Sans";font-=
+size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>SELECT</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>INSERT</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>UPDATE</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>, or</span><span style=3D'font-f=
+amily:
+      "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;=
+</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>DELETE</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>) can define and use its own CTE=
+.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>CTEs are</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;not persistent</span><s=
+pan
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>—they exist only for the duration of the single query in =
+which
+      they are defined.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>❌</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;What You Cannot Do</span><=
+/p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>You</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;cannot reuse&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>a CTE defined in one query in another query within the same
+      stored procedure.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>CTEs are</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;not global&nbsp;</span>=
+<span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>or shared across multiple queries.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>✅ Exa=
+mple</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>Each</span=
+><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>WITH=
+</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>clause is =
+scoped
+ to the query that immediately follows it.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:Calibri;font-size=
+:12.0pt;
+ color:#424242'>&nbsp;</p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Yes,
+ you</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;can use Co=
+mmon
+ Table Expressions (CTEs)&nbsp;</span><span style=3D'background:#FAFAFA' la=
+ng=3Dja>in
+ different queries within a</span><span style=3D'background:#FAFAFA' lang=
+=3Den-US>&nbsp;Stored
+ Procedure (SP)</span><span style=3D'background:#FAFAFA' lang=3Dja>, but wi=
+th some
+ important considerations:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>✅</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;What You Can Do</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>You can use</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;multiple CTEs=
+&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>in a stored procedure.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Each</span><span style=3D'font-family:"Segoe Sans";font-siz=
+e:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;individual query&nbsp;</span><=
+span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>(like a</span><span style=3D'font-family:"Segoe Sans";font-=
+size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>SELECT</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>INSERT</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>,</span><span style=3D'font-fami=
+ly:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>UPDATE</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>, or</span><span style=3D'font-f=
+amily:
+      "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;=
+</span><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Den-US>DELETE</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Dja>) can define and use its own CTE=
+.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>CTEs are</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;not persistent</span><s=
+pan
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>—they exist only for the duration of the single query in =
+which
+      they are defined.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>❌</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;What You Cannot Do</span><=
+/p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>You</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;cannot reuse&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>a CTE defined in one query in another query within the same
+      stored procedure.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>CTEs are</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;not global&nbsp;</span>=
+<span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>or shared across multiple queries.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>✅ Exa=
+mple</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>Each</span=
+><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>WITH=
+</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>clause is =
+scoped
+ to the query that immediately follows it.</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>If you =
+need
+ to reuse logic across multiple queries, consider:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Using</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;temporary tables&nbsp;</span><=
+span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>or</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;table variables</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Creating</span><span style=3D'font-family:"Segoe Sans";font=
+-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;views&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>or</span><span style=3D'font-family:"Segoe Sans";font-size:=
+12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;inline table-valued functions<=
+/span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>.</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:0pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Would y=
+ou
+ like an example using temporary tables for reuse across multiple queries?<=
+/span></p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

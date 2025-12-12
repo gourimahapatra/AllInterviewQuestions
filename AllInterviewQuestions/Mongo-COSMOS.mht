@@ -1,0 +1,356 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/CB1ABE33/Mongo-COSMOS.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DMongo-COSMOS.htm>
+<link rel=3DFile-List href=3D"Mongo-COSMOS_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.6687in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.5861in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Interview</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.6687=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+19:27</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.8506in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:1.334i=
+n'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Mongo</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+6687in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+19:28</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:7.8506=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>1. What=
+ is
+ MongoDB and how does it differ from SQL databases?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>MongoDB=
+ is a
+ NoSQL, document-oriented database that stores data in flexible, JSON-like
+ documents (BSON). Unlike SQL databases, it doesn’t require a fixed schem=
+a.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>2. What=
+ is
+ BSON?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>BSON (B=
+inary
+ JSON) is the format MongoDB uses to store documents. It supports more data
+ types than JSON and is optimized for speed and space.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>3. What=
+ are
+ collections and databases in MongoDB?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Database:
+      A container for collections.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Collection:
+      A group of documents, similar to a table in SQL.</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>4. How =
+does
+ MongoDB ensure high availability?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Through</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;replica sets</span><span
+ style=3D'background:#FAFAFA' lang=3Dja>, which are groups of MongoDB serve=
+rs that
+ maintain the same data set, providing redundancy and failover.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>5. What=
+ is
+ sharding in MongoDB?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Shardin=
+g is
+ the process of distributing data across multiple machines to support
+ horizontal scaling.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>6. What=
+ are
+ indexes in MongoDB?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Indexes
+ improve query performance. MongoDB supports single field, compound, text, =
+and
+ geospatial indexes.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>7. What=
+ is
+ the aggregation framework?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-size:12.0pt;color:#42424=
+2'><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>A powerful=
+ tool
+ for data processing and transformation, using stages like</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>$mat=
+ch</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>,</span><s=
+pan
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>$gro=
+up</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>,</span><s=
+pan
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Den-US>&nbsp;<=
+/span><span
+ style=3D'font-family:source-code-pro;background:#FAFAFA' lang=3Den-US>$sor=
+t</span><span
+ style=3D'font-family:"Segoe Sans";background:#FAFAFA' lang=3Dja>, etc.</sp=
+an></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.7736in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:1.4083=
+in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Cosmos</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+6687in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+19:28</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:7.7736=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>1. What=
+ is
+ Cosmos DB?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A globa=
+lly
+ distributed, multi-model NoSQL database by Microsoft Azure. It supports
+ document, key-value, graph, and column-family data models.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>2. What=
+ APIs
+ does Cosmos DB support?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>SQL
+      API</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>MongoDB
+      API</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Cassandra
+      API</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Gremlin
+      (graph) API</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Table
+      API</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>3. What=
+ are
+ consistency levels in Cosmos DB?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Strong</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Bounded
+      Staleness</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Session</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Consistent
+      Prefix</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Eventual</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>4. How =
+does
+ Cosmos DB ensure global distribution?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>It repl=
+icates
+ data across multiple Azure regions with automatic failover and low-latency
+ access.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>5. What=
+ is
+ partitioning in Cosmos DB?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Partiti=
+oning
+ distributes data across logical partitions using a partition key, enabling
+ scalability and performance.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>6. How =
+is
+ indexing handled in Cosmos DB?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Automat=
+ic
+ indexing of all properties by default, with options for custom indexing
+ policies.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>7. What=
+ is
+ RU/s (Request Units per second)?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A perfo=
+rmance
+ currency in Cosmos DB that abstracts the cost of operations. You provision
+ RU/s to ensure predictable performance.</span></p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

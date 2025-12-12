@@ -1,0 +1,1537 @@
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_NextPart_01DC6B6D.BA4C1D70"
+
+This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive.
+
+------=_NextPart_01DC6B6D.BA4C1D70
+Content-Location: file:///C:/8E67CB04/GoogleCloud.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DGoogleCloud.htm>
+<link rel=3DFile-List href=3D"GoogleCloud_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.3826in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:1.5861=
+in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Interview</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+6687in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>29</span><span style=3D'font-family:"MS Gothi=
+c"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+18:55</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4229in;margin-left:0in;width:6.3826=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'font-weight:bold;background=
+:#FAFAFA'>Basic
+ GCP Interview Questions</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>1. What=
+ is
+ Google Cloud Platform (GCP)?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>GCP is a
+ suite of cloud computing services by Google that runs on the same
+ infrastructure as Google Search, Gmail, and YouTube. It offers services for
+ computing, storage, machine learning, and more.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>2. What=
+ are
+ the core services of GCP?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Compute
+      Engine (VMs)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>App
+      Engine (PaaS)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Cloud
+      Storage</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>BigQuery
+      (analytics)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Kubernetes
+      Engine (GKE)</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>3. What=
+ is
+ the difference between Compute Engine and App Engine?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Compute
+      Engine: IaaS, gives full control over VMs.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>App
+      Engine: PaaS, abstracts infrastructure and auto-scales apps.</span></=
+li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>4. What=
+ is
+ Google Cloud Storage?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A scala=
+ble
+ object storage service for unstructured data like images, videos, and back=
+ups.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>5. What=
+ is
+ BigQuery?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A
+ fully-managed, serverless data warehouse that enables super-fast SQL queri=
+es
+ using Google’s infrastructure.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'font-weight:bo=
+ld;
+ background:#FAFAFA'>Intermediate GCP Interview Questions</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>6. What=
+ is a
+ VPC in GCP?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A Virtu=
+al
+ Private Cloud (VPC) is a virtual network that provides connectivity for GCP
+ resources.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>7. What=
+ is
+ IAM in GCP?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Identit=
+y and
+ Access Management (IAM) controls who can do what on which resources using
+ roles and policies.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>8. What=
+ are
+ GCP’s storage classes?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Standard</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Nearline</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Coldline</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Archive<br>
+            Each optimized for different access frequencies and cost.</span=
+></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>9. What=
+ is
+ Cloud Pub/Sub?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A messa=
+ging
+ service for building event-driven systems and real-time analytics pipeline=
+s.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>10. Wha=
+t is
+ Cloud Functions?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A serve=
+rless
+ execution environment for building and connecting cloud services with
+ single-purpose functions.</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'font-weight:bo=
+ld;
+ background:#FAFAFA'>Advanced GCP Interview Questions</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>11. Wha=
+t is
+ Anthos?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A hybri=
+d and
+ multi-cloud platform that allows managing applications across on-premises =
+and
+ cloud environments.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>12. How=
+ does
+ GCP ensure high availability?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Through
+ global infrastructure, multi-zone deployments, load balancing, and managed
+ services with SLAs.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>13. Wha=
+t is
+ the difference between zonal, regional, and global resources?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Zonal:
+      Tied to a single zone (e.g., VM instances)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Regional:
+      Available across multiple zones in a region (e.g., regional managed
+      instance groups)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Global:
+      Accessible across all regions (e.g., Cloud DNS)</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>14. Wha=
+t is
+ GKE Autopilot?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A mode =
+of GKE
+ where Google manages the infrastructure, letting you focus only on your
+ workloads.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>15. Wha=
+t is
+ the role of Stackdriver (now part of Cloud Operations)?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Provides
+ monitoring, logging, and diagnostics for applications on GCP and AWS.</spa=
+n></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242' lang=3Den-US><span style=3D'font-weight:bo=
+ld;
+ background:#FAFAFA'>Scenario-Based &amp; Conceptual Questions</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>16. How=
+ would
+ you secure a GCP project?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Use
+      IAM roles and policies</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Enable
+      audit logging</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Use
+      VPC Service Controls</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Encrypt
+      data at rest and in transit</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>17. How=
+ do
+ you migrate a legacy app to GCP?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Assess
+      the app</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Choose
+      the right service (e.g., App Engine, GKE)</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Use
+      tools like Migrate for Compute Engine</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Test
+      and optimize</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>18. Wha=
+t is
+ the difference between GCP and AWS?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>GCP
+      is known for data analytics and AI tools</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>AWS
+      has broader service offerings</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Pricing
+      and UI differ</span></li>
+ </ul>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>19. Wha=
+t is
+ Cloud Spanner?</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>A globa=
+lly
+ distributed, strongly consistent relational database service.</span></p>
+ <p style=3D'margin-top:6pt;margin-bottom:3pt;font-family:"Segoe Sans";
+ font-size:12.0pt;color:#424242'><span style=3D'background:#FAFAFA'>20. How=
+ do
+ you optimize cost in GCP?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Use
+      committed use discounts</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Right-size
+      VMs</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Use
+      preemptible VMs</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Monitor
+      with billing reports</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'=
+>&nbsp;</p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'
+ lang=3Dja>Google Cloud Platform (GCP)</span><span style=3D'background:whit=
+e'
+ lang=3Den-US>&nbsp;</span><span style=3D'background:white' lang=3Dja>is am=
+ong the
+ fastest-growing cloud computing platforms. As organizations increasingly a=
+dopt
+ cloud services for scalability, efficiency, and security, expertise in GCP=
+ is
+ becoming a valuable skill. Preparing for a GCP interview can seem daunting,
+ but this guide provides detailed answers to commonly asked questions to he=
+lp
+ you succeed.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>Table
+ of Contents</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Introduction
+      to GCP</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Basic
+      GCP Interview Questions</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Intermediate
+      GCP Interview Questions</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Advanced
+      GCP Interview Questions</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Tips
+      for Excelling in GCP Interviews</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Conclusion</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>Introduction
+ to GCP</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google Cl=
+oud
+ Platform is a suite of cloud services offered by Google. It includes
+ computing, storage, networking, and advanced tools like Big Data and Machi=
+ne
+ Learning. GCP is known for its cutting-edge infrastructure and competitive
+ pricing. This blog dives deep into 30 key interview questions, categorized=
+ for
+ all skill levels, to help you land your next GCP-related role.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>Basic
+ GCP Interview Questions</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>1.
+ What is cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt'><a
+ href=3D"https://aws.amazon.com/what-is-cloud-computing/"><span style=3D'fo=
+nt-family:
+ -apple-system;font-size:15.0pt;background:white' lang=3Dja>Cloud computing=
+</span></a><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;color:#171717;backgrou=
+nd:
+ white' lang=3Den-US>&nbsp;</span><span style=3D'font-family:-apple-system;
+ font-size:15.0pt;color:#171717;background:white' lang=3Dja>refers to the
+ delivery of computing resources like servers, databases, networking, and
+ software over the internet. These services enable on-demand access without
+ requiring users to maintain physical infrastructure, promoting scalability,
+ cost-efficiency, and faster innovation.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>2.
+ What is Computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Computing=
+ is
+ the use of technology to process, store, and analyze data, enabling
+ problem-solving and information management. It involves devices like compu=
+ters
+ and servers, software, programming languages, and concepts like algorithms=
+ and
+ data structures. In essence, computing transforms data into meaningful
+ information, playing a crucial role in fields like business, science,
+ entertainment, and communication.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>3.
+ What is GCP or Google Cloud Platform?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>GCP, or G=
+oogle
+ Cloud Platform, is Google’s cloud computing platform. It offers tools and
+ services that run on the same infrastructure used by Google’s flagship
+ products like Search and YouTube, allowing businesses to develop and host
+ applications, analyze data, and store information securely.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>4.
+ What are the primary features of GCP?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Scalability</span><span style=3D'font-family:-apple=
+-system;
+      font-size:15.0pt;background:white'>: Easily scale resources based on
+      demand.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Security</span><span style=3D'font-family:-apple-sy=
+stem;
+      font-size:15.0pt;background:white'>: Robust security practices, inclu=
+ding
+      encryption and regular audits.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Cost-effectiveness</span><span style=3D'font-family=
+:-apple-system;
+      font-size:15.0pt;background:white'>: Pay-as-you-go pricing with disco=
+unts
+      for sustained use.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Wide range of services</span><span style=3D'font-fa=
+mily:
+      -apple-system;font-size:15.0pt;background:white'>: Includes Compute
+      Engine, App Engine, and BigQuery.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>5.
+ What are the advantages of using cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>First, le=
+t us
+ compare Google Cloud with AWS Cloud:</span></p>
+ <p style=3D'margin:0in'><a
+ href=3D"https://media2.dev.to/dynamic/image/width=3D800%2Cheight=3D%2Cfit=
+=3Dscale-down%2Cgravity=3Dauto%2Cformat=3Dauto/https%3A%2F%2Fdev-to-uploads=
+.s3.amazonaws.com%2Fuploads%2Farticles%2Fk2b0vphjplr8ar0okyh9.png"><img
+ src=3D"GoogleCloud_files/image001.png" width=3D443 height=3D179
+ alt=3D"Image description"></a></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>6.
+ Which platforms are used for large-scale cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt'><span style=3D'color:#171717;background:white' lang=3Dja=
+>Popular
+ platforms for large-scale cloud computing include</span><span
+ style=3D'color:#171717;background:white' lang=3Den-US>&nbsp;</span><a
+ href=3D"https://aws.amazon.com/what-is-aws/"><span style=3D'background:whi=
+te'
+ lang=3Den-US>Amazon Web Services (AWS)</span></a><span style=3D'color:#171=
+717;
+ background:white' lang=3Dja>, Microsoft Azure, Google Cloud Platform (GCP)=
+, and
+ others.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>7.
+ What are the deployment models in cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Cloud com=
+puting
+ offers three main deployment models: private cloud, public cloud, and hybr=
+id
+ cloud.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>8.
+ What benefits does utility computing provide?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Utility
+ computing offers pay-as-you-go and on-demand services, allowing users to
+ select specific cloud-deployed services while the provider handles their
+ operation and management.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>9.
+ How can data security be ensured during transfer?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>To secure=
+ data
+ during transfer, ensure proper encryption is in place and verify there are=
+ no
+ data leaks in the process.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>10.
+ What is the difference between IaaS, PaaS, and SaaS?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>IaaS (Infrastructure as a Service)</span><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>:
+      Provides virtualized computing resources like virtual machines and
+      storage (e.g., GCP’s Compute Engine).</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>PaaS (Platform as a Service)</span><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>:
+      Offers a platform for developing, managing, and deploying applications
+      (e.g., GCP’s App Engine).</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>SaaS (Software as a Service)</span><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>:
+      Delivers fully managed applications over the internet (e.g., Google
+      Workspace).</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>11.
+ What are the key components of GCP or Google Cloud Platform?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Compute Services</span><span style=3D'font-family:-=
+apple-system;
+      font-size:15.0pt;background:white'>: Compute Engine, Kubernetes Engin=
+e,
+      App Engine.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Storage Services</span><span style=3D'font-family:-=
+apple-system;
+      font-size:15.0pt;background:white'>: Cloud Storage, Persistent Disks,
+      Filestore.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Big Data and AI</span><span style=3D'font-family:-a=
+pple-system;
+      font-size:15.0pt;background:white'>: BigQuery, Dataflow, AI Platform.=
+</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Networking</span><span style=3D'font-family:-apple-=
+system;
+      font-size:15.0pt;background:white'>: VPC, Load Balancer, Cloud CDN.</=
+span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>12.
+ What is the function of a bucket in Google Cloud Storage?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt'><a
+ href=3D"https://www.geeksforgeeks.org/how-to-create-a-google-cloud-storage=
+-bucket/"><span
+ style=3D'background:white' lang=3Dja>Buckets</span><span style=3D'backgrou=
+nd:white'
+ lang=3Den-US>&nbsp;</span></a><span style=3D'color:#171717;background:whit=
+e'
+ lang=3Dja>are basic containers used to store data in Google Cloud Storage.=
+ Data
+ must be organized into a bucket, and there is no limit to how many can be
+ created or removed, though buckets cannot be nested like directories.</spa=
+n></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>13.
+ How can you save money with cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Cloud com=
+puting
+ reduces the need for large teams by sharing resources among multiple users,
+ who only pay for the amount of resources they consume, much like carpoolin=
+g.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>14.
+ What is Google Cloud Pub/Sub, and its typical use cases?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google Cl=
+oud
+ Pub/Sub is designed for real-time messaging and event-driven systems. It
+ supports asynchronous communication and is commonly used for logging, data
+ ingestion, real-time analytics, and microservices integration.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>15.
+ What are the components of Google Cloud Platform?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Key GCP
+ components include:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Compute Engine</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Container Engine</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Storage</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud App Engine</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Dataflow</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Machine Learning Engine</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      BigQuery</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Job Discovery</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Endpoints</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Google
+      Cloud Test Lab</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>Intermediate
+ GCP Interview Questions</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>16.
+ What is Google Compute Engine?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt'><a
+ href=3D"https://en.wikipedia.org/wiki/Google_Compute_Engine"><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;background:white' lang=
+=3Dja>Google
+ Compute Engine (GCE)</span></a><span style=3D'font-family:-apple-system;
+ font-size:15.0pt;color:#171717;background:white' lang=3Den-US>&nbsp;</span=
+><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;color:#171717;backgrou=
+nd:
+ white' lang=3Dja>is an IaaS service that provides virtual machines running=
+ on
+ Google’s infrastructure. GCE supports multiple operating systems, automa=
+tic
+ scaling, load balancing, and integrates seamlessly with other GCP services=
+.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>17.
+ What is the concept of &quot;Projects&quot; in GCP?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>In GCP, a
+ Project is a container for all your resources. It allows you to organize a=
+nd
+ manage your cloud environment. Each project has:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>A
+      unique identifier.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>A
+      billing account.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Associated
+      IAM policies.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>18.
+ How does GCP ensure data security?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Encryption</span><span style=3D'font-family:-apple-=
+system;
+      font-size:15.0pt;background:white'>: Data is encrypted at rest and in
+      transit.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>IAM (Identity and Access Management)</span><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>:
+      Provides granular control over access permissions.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Compliance</span><span style=3D'font-family:-apple-=
+system;
+      font-size:15.0pt;background:white'>: GCP adheres to major compliance
+      standards like GDPR, HIPAA, and PCI DSS.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>19.
+ What are service accounts?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Service
+ accounts are special types of accounts used by applications or virtual
+ machines to authenticate API calls or access GCP resources. They are not t=
+ied
+ to a user and enhance security by isolating roles.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>20.
+ How does GCP handle scaling?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Vertical scaling</span><span style=3D'font-family:-=
+apple-system;
+      font-size:15.0pt;background:white'>: Increases the resources of a sin=
+gle
+      machine.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Horizontal scaling</span><span style=3D'font-family=
+:-apple-system;
+      font-size:15.0pt;background:white'>: Adds more machines to handle
+      increased traffic.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>21.
+ What are the various layers in cloud architecture?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Cloud
+ architecture consists of four layers:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Physical Layer</span><span style=3D'font-family:-ap=
+ple-system;
+      font-size:15.0pt;background:white'>: Includes servers, networks, and
+      hardware.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Infrastructure Layer</span><span style=3D'font-fami=
+ly:
+      -apple-system;font-size:15.0pt;background:white'>: Covers storage and
+      virtualized layers.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Platform Layer</span><span style=3D'font-family:-ap=
+ple-system;
+      font-size:15.0pt;background:white'>: Involves the operating system and
+      applications.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Application Layer</span><span style=3D'font-family:=
+-apple-system;
+      font-size:15.0pt;background:white'>: The layer that end-users interact
+      with.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>22.
+ What are the libraries and tools for cloud storage on GCP?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>For Google
+ Cloud Platform (GCP) storage, key tools and libraries include:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#3B=
+49DF'><a
+      href=3D"https://www.json.org/json-en.html"><span style=3D'font-family=
+:-apple-system;
+      font-size:15.0pt;background:white' lang=3Dja>JSON</span><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'
+      lang=3Den-US>&nbsp;</span></a><span style=3D'font-family:-apple-syste=
+m;
+      font-size:15.0pt;color:#171717;background:white' lang=3Dja>and XML AP=
+Is for
+      core storage operations.</span></li>
+ </ul>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>GCP
+      Console for basic object and bucket management.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Cloud
+      Storage Client Libraries for various programming languages.</span></l=
+i>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Gsutil
+      Command-line Tool for CLI access.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Third-party
+      tools, like Boto Library, for additional support.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>23.
+ Explain GCP Storage.</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google Cl=
+oud
+ Platform (GCP) Storage is a cloud-based solution for reliable, secure, and
+ scalable data storage. It allows users to store their own data, app-genera=
+ted
+ data, and customer data, accessible anytime, anywhere.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>24.
+ What is serverless computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt'><a
+ href=3D"https://en.wikipedia.org/wiki/Serverless_computing"><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;background:white' lang=
+=3Dja>Serverless
+ computing</span></a><span style=3D'font-family:-apple-system;font-size:15.=
+0pt;
+ color:#171717;background:white' lang=3Den-US>&nbsp;</span><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;color:#171717;backgrou=
+nd:
+ white' lang=3Dja>allows users to focus on tasks without managing servers. =
+The
+ cloud provider handles the underlying hardware, dynamically allocating
+ resources. This reduces complexity, and users pay only for the resources t=
+hey
+ use, making it a part of utility computing.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>25.
+ Explain cloud-based load balancing.</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Cloud-bas=
+ed
+ load balancing distributes tasks and resources evenly across servers, ensu=
+ring
+ high performance at low costs. It matches supply and demand through
+ scalability and flexibility, and also monitors the health of the service.
+ Major providers like AWS, GCP, and Azure offer this functionality.</span><=
+/p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>26.
+ What is &quot;EUCALYPTUS&quot; in cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>&quot;EUC=
+ALYPTUS&quot;
+ (Elastic Utility Computing Architecture for Linking Your Programs To Useful
+ Systems) is an open-source cloud computing infrastructure for creating pub=
+lic,
+ private, and hybrid cloud platforms. It allows you to build cloud clusters=
+ and
+ even operate your own data center in the cloud.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>27.
+ What are the methods for authenticating Google Compute Engine API?</span><=
+/p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Authentic=
+ation
+ for Google Compute Engine API can be done through:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Client
+      library</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>OAuth
+      2.0</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Access
+      token</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>28.
+ What are popular open-source cloud computing platforms?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Notable
+ open-source cloud platforms include:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>OpenStack</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Cloud
+      Foundry</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Docker</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Apache
+      Mesos</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>KVM</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>29.
+ What are the different modes of Software as a Service (SaaS)?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>SaaS can =
+be
+ deployed in two main modes:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Single Multi-Tenancy</span><span style=3D'font-fami=
+ly:
+      -apple-system;font-size:15.0pt;background:white'>: Independent resour=
+ces
+      for each user.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Fine Grain Multi-Tenancy</span><span style=3D'font-=
+family:
+      -apple-system;font-size:15.0pt;background:white'>: Shared resources w=
+ith
+      the same functionality for multiple users.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>30.
+ What are the benefits of APIs in the cloud domain?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>APIs in t=
+he
+ cloud offer several advantages:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>No
+      need to write the entire program.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Simplifies
+      communication between applications.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Facilitates
+      easy app creation and connection to cloud services.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Ensures
+      secure integration between applications.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>Advanced
+ GCP Interview Questions</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>31.
+ What is BigQuery?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>BigQuery =
+is a
+ fully-managed, serverless data warehouse that allows fast SQL queries on l=
+arge
+ datasets. It’s designed for big data analytics and integrates with tools=
+ like
+ Google Data Studio for visualization.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>32.
+ Explain the difference between scalability and elasticity.</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Scalability</span><span style=3D'font-family:-apple=
+-system;
+      font-size:15.0pt;background:white'>: Refers to the ability of a syste=
+m to
+      handle increased workload by adding resources (upgrading a server or
+      adding more servers).</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Elasticity</span><span style=3D'font-family:-apple-=
+system;
+      font-size:15.0pt;background:white'>: Refers to the system's ability to
+      dynamically adjust resources based on demand fluctuations.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>33.
+ Describe GCP’s pricing model.</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>GCP follo=
+ws a
+ pay-as-you-go pricing model. It offers:</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Sustained-use discounts</span><span style=3D'font-f=
+amily:
+      -apple-system;font-size:15.0pt;background:white'>: For consistent use=
+ of
+      VMs.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-weight:bold;font-family:-apple-system;font-size:15.0pt;
+      background:white'>Committed-use discounts</span><span style=3D'font-f=
+amily:
+      -apple-system;font-size:15.0pt;background:white'>: For committing to a
+      specific resource usage over time.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>34.
+ What is Kubernetes, and how is it used in GCP?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt'><a href=3D"https://kubernet=
+es.io/"><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;background:white' lang=
+=3Dja>Kubernetes</span></a><span
+ style=3D'font-family:-apple-system;font-size:15.0pt;color:#171717;backgrou=
+nd:
+ white' lang=3Dja>is an open-source platform for automating the deployment,
+ scaling, and management of containerized applications. In GCP, it’s offe=
+red as
+ Google Kubernetes Engine (GKE), allowing users to manage their containers
+ efficiently.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>35.
+ What are some best practices for optimizing GCP performance?</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Use
+      auto-scaling to handle variable traffic.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Implement
+      load balancing to distribute traffic.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#17=
+1717'><span
+      style=3D'font-family:-apple-system;font-size:15.0pt;background:white'=
+>Optimize
+      costs by leveraging preemptible VMs.</span></li>
+ </ul>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>36.
+ What are service accounts and how to create one?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Service
+ accounts in Google Cloud are special accounts used for project authorizati=
+on
+ and to allow Google Compute Engine to perform tasks on behalf of users. Th=
+ese
+ accounts are created automatically when a new instance is launched, and th=
+eir
+ scope is specified at that time.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>37.
+ What are Google Cloud APIs and how to access them?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google Cl=
+oud
+ APIs enable integration with Google Cloud services, including storage and
+ machine learning. They can be accessed through client libraries, Firebase
+ SDKs, Google Cloud Console, or SDK command-line tools.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>38.
+ How can information stored in the cloud be safeguarded?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google Cl=
+oud
+ Platform (GCP) provides extensive security measures such as Virtual Private
+ Clouds (VPC), Identity and Access Management (IAM), and firewall rules to
+ ensure the safety of data. These tools follow best practices to protect
+ services from unauthorized access.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>39.
+ What is meant by an &quot;instance&quot; in Google Cloud?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>An instan=
+ce
+ refers to a virtual machine in Google Cloud. Each instance runs an operati=
+ng
+ system and can be configured with different hardware options. Once deleted=
+, an
+ instance cannot be recovered, and additional storage can be added based on
+ application needs.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>40.
+ What are projects in Google Cloud?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Projects =
+in
+ Google Cloud act as containers that organize all resources. They help
+ compartmentalize resources but are not meant for resource sharing. Projects
+ can have different users and owners.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>41.
+ What is Object Versioning?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Object
+ versioning allows you to recover accidentally overwritten or deleted data.
+ When versioning is enabled in a GCP bucket, each object update or deletion
+ creates a unique version, identified by generation (new content) and
+ metageneration (new metadata).</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>42.
+ Can you retrieve a deleted instance?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Once an
+ instance is deleted, it cannot be recovered. However, if it was simply
+ stopped, you can restart it to bring it back.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>43.
+ What is Google Cloud SDK?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google Cl=
+oud
+ SDK is a set of tools for managing resources and applications on Google Cl=
+oud,
+ including the gcloud, gsutil, and bq command-line tools. It requires Python
+ 2.7.x and supports Windows, Linux, and macOS.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>44.
+ How do you differentiate between Project Id and Project Number?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>The Proje=
+ct Id
+ is user-generated, while the Project Number is automatically assigned when=
+ a
+ project is created. The Project Number is essential for Google Compute Eng=
+ine,
+ though the Project Id is optional for many other services.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>45.
+ How can you increase the quota for a Google Cloud project?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>To reques=
+t a
+ larger quota, navigate to the Quotas tab in the Google Cloud Console. You =
+can
+ request additional resources by clicking &quot;Edit Quotas&quot; and
+ submitting a request for increased allocation.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>46.
+ Who are system integrators in cloud computing?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>System
+ integrators combine various cloud components to build comprehensive
+ infrastructures, including public, private, or hybrid clouds, facilitating
+ seamless integration of cloud services.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>47.
+ How can you save software, drivers, and programs for the long term without
+ using discs?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Cloud sto=
+rage
+ has replaced traditional data storage methods. Users can upload files to c=
+loud
+ services where they are safely stored and accessible long-term, without
+ worrying about physical media degradation.</span></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>48.
+ What’s the connection between Google Compute Engine and Google App Engin=
+e?</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Google App
+ Engine (PaaS) and Google Compute Engine (IaaS) complement each other. GAE =
+is
+ used for mobile backends and web apps, while GCE provides greater control =
+over
+ infrastructure, allowing custom storage or specialized business logic.</sp=
+an></p>
+ <p style=3D'margin-top:7pt;margin-bottom:7pt;font-family:-apple-system;
+ font-size:10.0pt;color:#171717'><span style=3D'font-weight:bold;background=
+:white'>Tips
+ for Excelling in Google Cloud Platform (GCP) Interviews</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Master co=
+re
+ services: Understand Compute Engine, App Engine, BigQuery, and Kubernetes.=
+</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Show hand=
+s-on
+ expertise: Practice deploying projects in GCP.</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Stay upda=
+ted:
+ Follow GCP documentation and new feature updates.</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Pursue
+ certifications: Google’s certifications like Associate Cloud Engineer or
+ Professional Cloud Architect add credibility.</span></p>
+ <p style=3D'margin-top:0pt;margin-bottom:15pt;font-family:-apple-system;
+ font-size:15.0pt;color:#171717'><span style=3D'background:white'>Practice
+ real-world scenarios: Showcase problem-solving skills using GCP tools.</sp=
+an></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:#424242'=
+>&nbsp;</p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.6062in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.6062in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt;color:#=
+97979A'>Infrastructure
+and Application Modernization with Google Cloud</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:0in;width:1.5979=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+18:57</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_01DC6B6D.BA4C1D70
+Content-Location: file:///C:/8E67CB04/GoogleCloud_files/image001.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAAAbsAAACzCAMAAAAnk0L1AAAAolBMVEUAjdne4uYAhs8AIzYAAAAA
+ERoAf8QAYpcAS3QANFAAca4AGigAGScABgkAEBkAXpAATnkALEMAgMUAbKYAebsAZp0AaqMAPFwA
+RGkAU4D///+IiIg/Pz/z8/NeXl4eHh7m5uYvLy/MzMyysrIdHR0KCgpPT0/o6OjCwsJsbGzb29va
+2tqXl5d7e3vPz88uLi5aWlqCgoK4uLi/v79VVVVtbW2tSvFEAAANH0lEQVR42u2cC3fTSBJGg634
+FcJMdueFW2rLVmwIkGF3dvf//7WtV7ekkAd2IqVqqD4QZFmxrur2KzmH7+xMf3vz2gAm0XQ0xQVS
+jKajKS6QYjQdTXGBFKPpaIoLpBhNR1NcIBVok2lRnM/ocD6dLJadt1YXs9dlywVaFkWxvPeSPqM8
+zD3gk+liELTJdEmFgwP6siDW+Sjl4Xufp2ddLJ/1aS/c3iRGKcs9racpPcyI7ubTKfeV2cXbFXxZ
+LYF1dTmKPNa2XMzfXU5/mv6E3XteFNPJZPq2+BmQFkVxuRoD5JECMSN2bujToGB1iYMLxtjFxRzL
+RsDdh8GTdCm9S993cTGMu+V8uQCU+dl8CQerq39QH1mOMgTSXeZgiOfM1bsV9F/swvDkWI1xQB4p
+UAZYwJC6nM/OYWIC1OlkXqA7Bu5eCCf5UnFHLwZxN5vOVleTs8UC/syXOG0titHKtZRHQknsDmoC
+R9h/ZOp5vXk0uQPGBS5keLBcItbq3T+hr0N/R00EPOk8DJxsL4W36MUg7sDX5Ap7/exqBR6XMFfO
+zouR9OVxxwWgjgPt/BcoDTw5Lv7jdaQHCsSMq4tfcD5aLLGbzS5+Pc/uCHh21h13cim7o3lsGHe4
+MYG5eTZdLSeTq9+ueHl56cX1gcZLBAz41t2Sb0/usE+/+rhjxt5g6o27zJcepnfpYsBxB9M1b5d+
+/wMgFu+XExh8Z2NNVbw1u1y17pBnCX01uZudv7Y72Weezx5c7/B152Ha9e5yjt88H2q9w64Nk+T8
+bPEWZsv51Xse+0g4RsNZkfcp+HfO+8zzmYw7mLzP3/Mm7hVa/vluITP3nX3m1TTtM+WHHHmYvM+E
+b7z8g/aZ578P4E7mRug4NABRIk+j46hT3Z765QVVTCfaD98eLdB4v784Gs2b6gIpRtPRFBdIMZqO
+prhAitF0NMUFUoymoykukGI0HU1xgRSj6WiKC6QYTUdTXCDFaDqa4gIpRtPRFBdIMZqOprhAitF0
+NMUFUoymoykukGI0HU1xgRSj6WiKC6QYTUdTXCDFaDqa4gIpRtPRFBdIMZqOprhAitF0NMUFUoym
+oykukGI0HU1xgRSj6WiKC6QYTUdTXCDFaDqa4gIpRtPRFBdIMZqOprhAr4v2xpvVdrbW3968NoBS
+NHdnF83d2UVzd3bR3J1dNHdnF83d2UVzd3bRxF3AYJ6ySmdD7F5TlUWxqfvfV293ozG+6TAWTTob
+QwvbtOjYui/zZQOi7a5PK8Yd7GNbcoefEvNH9dxVJbxq7sh7DXeI13J03T1Skx/EXb1psHPvd01R
+RD6iO1C5oAa7PQ6/eNgX5YcS3sTx2Kyb6z2+LIarUdcd9pmGpggAanAcImxTftzWWEJBopd12eOu
+iBGO9y/Y63ru6g3WDetRhWJ/iGumwQu2dAQsVdnstjfFvtngpeWBJrRIZNfXdye3I9zBZ6OnGGka
+4iM8K/0a1cLQjJt6t2+whvBGA6KhFnA9V2pwd4BFiiLAYsngJM2ZH0pUVgkSv2T6INzE+Cmff3l3
+VYkCqB7wT72JUiC8YB+odOwOX+x3eCkow2qXFVQU/hx58zvu6DimaSjI0/M1aHO3rSP2J3SHNYEj
+PB1esBwPu8Plbk+6SBNhNeIOrbEmRIKTUJWG6YWbGOHNAdDaORPKkuoRotDIBU12d82dnS/dbT+B
+c+mJp7uDjoOjvCB3crRux13DtWMAcocnAk3asbOJGMwdTpRRHG5q4Ii0wWJ3Tfm5i7Q7fOaJANyJ
+c2KEK46cmb7fXUP3aRJmFBq8AKbw1t22Tu7gUnSHl0U8fbo76Cf4L487OVqn9S4EWVlbd7xdkdMD
+bl467upNSIOcB1Qed/X2y6FqkarDbb4s7wj47WfuEB50h8NMhMi4yyVp3cFFHXf4AJtPZZOuOd0d
+LgpQhE1yh0frtM/c0xwZqL+zO+xdMEk3vG8Ydb3jxQOOqzK5g2EV1h2kIBMBT6TMXZd/4lZnoPWO
+7sPjrl3veBVL7mB6KLrucP8ipQ6nu5Of73BK+YJ3iHLE8njLyXs0dleVvM8MVDecHUaZM6kjNfTj
+ZsQJfv9lWze4z6x4V9AipVLEtLdkxqYYYs7c02wJRbylxRbrubmJQtO6A4RDf848FLLixNPHnep2
+0i8vht0+PY2Gu86B29/VXXzJ0XU0WpP2eYO2v6u7HwHN3dlFc3d20dydXTR3ZxfN3dlFc3d20dyd
+XTR3ZxfN3dlFc3d20dydXTR3ZxfN3dlFc3d20dydXTR3ZxfN3dlFc3d20dydXTR3ZxfN3dlFc3d2
+0dydXTR3ZxfN3dlF8xw/u83HnV00d2cXzd3ZRXN3dtHcnV00d2cXzd3ZRXN3dtHEXaSYhqb3n6S7
+KWoSFZKihbqNc0OGjFxLOQ9duHuiAIDxpWOLvhON61Zvuv/HvRfbwLT3JDk8K1Egufsa89fU7nNH
+ESffZMsMm5VnwN01WuGvqY3o7qbE4Lub2Amj+1egZBcMmcMkE5RH7gCBA+pSmMm/4R9KXaEAk+32
+RZPy1l13+cMpaZDy/Krydk8hJsj4kV9QlB6n/eUovWGauCsPcI94y4UpK4zk+wtERaFoOPUB3VFk
+HwcQ4my33eZ4xK9HJyEmd7cUcBdiJ4wuUtQOh8x1x13ggJ79jtP78pzJJ5uioSCkYdzlDw8UGQQv
+qpKTjmTcMQNH6VHaX4rSG9bdLZaioaA8TJ2CLo+peSFR5HEnkX0SQIiJiClmMB6flJXcBQq+43tI
+0lW8AWEVh8x11ztMgsJBFyRuTNzJyQFi/Tru8odLEBWmcQWZtMldyFF6lPb3KUfpDevuP4eqkTQ3
+SerbbW/iOmUOJnctbEoizDGD8fiaZXe7w+ftjrp2DqPb3PBECCO+O+44OWvNOXpNdicnm5whN4S7
+/OGSVoflaLru2jg26mZ/5ii9Yd3Vhx1NU5RORalTuz0uQ9LZW3dUTQ4g/MAi23jEk91Vh1vsH50w
+Ohpt0mn77mSI8fm74240d+24yyxdd2kKGcxb110VYJLicSUpi5zY2QsilY7GyYjtuMvxiCe7gy4S
+JK9TwuhiyHl+oe9OljZO77u73o3mLq13uDfI6112l9L+UpTewO52sDtid5LUB3+BRCi66x1UUwII
+m7zecczg6e4kO7gNo+PAPg6Zw9i+jjvevUkyHqYjd/aZ47hr2n1myl0Fxo+tO0nsqwZNsm7dYbDn
+DjMFi8h7PInuY4qmu8+kfD8MIIQXuCzleMQT3aluj/7yYvQf6b4fbejm7oZDG7qZd/cDo7k7u2ju
+zi6au7OL5u7sork7u2juzi6au7OL5u7sork7u2juzi6au7OL5u7sork7u2juzi6au7OL5u7sork7
+u2juzi6au7OL5u7sork7u2juzi6au7OL5u7sork7u2juzi6aZzDabT7u7KK5O7to7s4umruzi+bu
+7KK5O7to7s4umruziybuKH8nJzDeDZzrv8bYC85Ruvthz0qle7JAoZu49XAMyH3v3MP6kmicJ/V9
+qVIPZnHc98bjYSfJXS+J7NFHpTA2jHVxdzlfBYMzKZPr6TaYOwqaifWm2Px1fb35L3xaCPzobbQi
+gUrIHyUKSgqMJAoOVqDESPmFbQYjPzdzlPIOZTAGTOlqH2gYeYxG2ijcSNIU/7fFRMs6o0noIuYs
+RowR4rL2UisDBll+pbhLTHHMz3KEO8qVolAziiiqDjtxl9MP09SACUsYqtSIO04UHNxdyi+MKd+Q
+30GOfZD8J4xooiTC2D7QIOoSGtYkdtIUK0q07KAxdKS0qFxWCYiU0nKq1zqlOIY2y+opd7TeNZJh
+iO7gbtBzdodK3OX0wzS2OSAS7iXuYhgqwPabOZNTDSXfcJ1yIhGZ32lklHEcKD/QoO4wlIqjHyVN
+kRIt1xlNrhHFqaw1B0RKadEdq5IUx+Z73bUBfeIOnzY2PLbRXU7yascdpUEGcfehHMkd5RdWnHxG
+m6aUE5nGP8eO0cnYPtCg7qDUgbLDUpri7vC55DDNTuhi6t6prDUHREppJXS7TXF8nrvmwGO75447
+dQi9cRdGG3eSX9jmG+ZYqr67QMAjuatKyv1t0xSrw23soPVCF3NZJRyx565qUxyf567e8OmeO95n
+0hoi6x1mIaZEwTHc4d14vVtzUi8nG37jrt6M5Q7mALDTTVMMklLdC10Ud6msaw6I/MZdc+S4o/UO
+Jj561HpDUdV5HPXc0TyAgcw5uToU+1vaZ2Ki4IDuBJHyCyWDURY2SjbMqYcRYXFv+aXzQEPuM3Gm
+o5DFNk0x95Zu6GKamtL0lMLSKw6/pB1om+LIz/K0u/vb0KmvRxZIYXsQ7bER81JlfczdQFPg0c2g
+u/jIOH+xsvrvM+2iuTu7aO7OLpq7s4vm7uyiuTu7aO7OLpq7s4vm7uyiuTu7aO7OLpq7s4vm7uyi
+uTu7aO7OLpq7s4vm7uyiuTu7aO7OLpq7s4vm7uyiuTu7aP8HxdtacnMag8gAAAAASUVORK5CYIJ=
+
+------=_NextPart_01DC6B6D.BA4C1D70
+Content-Location: file:///C:/8E67CB04/GoogleCloud_files/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../GoogleCloud.htm"/>
+ <o:File HRef=3D"image001.png"/>
+ <o:File HRef=3D"filelist.xml"/>
+</xml>
+------=_NextPart_01DC6B6D.BA4C1D70--

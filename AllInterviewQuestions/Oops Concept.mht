@@ -1,0 +1,1126 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/A5132274/OopsConcept.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DOopsConcept.htm>
+<link rel=3DFile-List href=3D"OopsConcept_files/filelist.xml">
+</head>
+
+<body lang=3Dja style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.3145in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2736in;width:1.5715=
+in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Concepts</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.2736in;width:1.=
+5277in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>1</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+7:52</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1729in;margin-left:0in;width:6.3145=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Step
+ 1:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Class and O=
+bject</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Class:
+      A blueprint for creating objects.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Object:
+      An instance of a class.</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Car:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def __init__(self, =
+brand,
+ color):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>self.brand
+ =3D brand</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>self.color
+ =3D color</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>my_car</span><span lang=3Den-US> =3D Car(&quot;Toyota&quot;,
+ &quot;Red&quot;)</span></p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;<=
+/cite></p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;<=
+/cite></p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Step
+ 2:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Encapsulati=
+on</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Definition:
+      Bundling data (attributes) and methods (functions) that operate on the
+      data into a single unit (class).</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Goal:
+      Hide internal details and protect data from unauthorized access.</spa=
+n></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> BankAccount:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def __init__(self, balance):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>self.__balance =3D balance&nbsp; # private attri=
+bute</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def deposit(self, amount):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>self.__balance +=3D amount</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def get_balance(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>return self.__balance</span></p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#59=
+5959'>&nbsp;</cite></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Step
+ 3:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Inheritance=
+</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Definition:
+      One class (child) inherits properties and behaviors from another class
+      (parent).</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Goal:
+      Promote code reuse.</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Animal:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def speak(self):</s=
+pan></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Some sound&quot;</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Dog(Animal):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def speak(self):</s=
+pan></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Bark&quot;</span></p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#59=
+5959'>&nbsp;</cite></p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Step
+ 4:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Polymorphis=
+m</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Definition:
+      The ability to use a unified interface for different data types or
+      classes.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Goal:
+      Flexibility and scalability.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> Cat:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def speak(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>return &quot;Meow&quot;</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> Dog:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def speak(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>return &quot;Bark&quot;</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>def</span><span
+ lang=3Den-US> animal_sound(animal):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>print(animal.speak())</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>animal_sound</span><span
+ lang=3Den-US>(Cat())&nbsp; # Meow</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>animal_sound</span><span
+ lang=3Den-US>(Dog())&nbsp; # Bark</span></p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#59=
+5959'>&nbsp;</cite></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>Step
+ 5:</span><span style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Abstraction=
+</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Definition:
+      Hiding complex implementation details and showing only the necessary
+      features.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA=
+'>Goal:
+      Simplify interface and reduce complexity.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>from</span><span
+ lang=3Den-US> abc import ABC, abstractmethod</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> Vehicle(ABC):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ @</span><span lang=3Den-US>abstractmethod</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def start_engine(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>pass</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> Car(Vehicle):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def start_engine(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>print(&quot;Engine started&quot;)</span></p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#59=
+5959'>&nbsp;</cite></p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Summary=
+ Table</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.152in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Concept</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0229in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Purpose</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.5979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Keyword/Tool</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.152in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Class/Object</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0423in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Structure
+   and instantiation</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.5784in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fo=
+nt-family:
+   source-code-pro' lang=3Dja>class</span><span style=3D'font-family:"Segoe=
+ Sans"'
+   lang=3Dja>, </span><span style=3D'font-family:source-code-pro' lang=3Den=
+-US>object</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Encapsulation</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0229in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Data
+   protection</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.5812in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;
+   color:#424242'>__private</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.152in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Inheritance</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0229in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Code
+   reuse</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.6263in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:source-code-pro;font-size:12.0pt;
+   color:#424242'>class Child(Parent)</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1715in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Polymorphism</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0229in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Flexibility</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.6263in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Method
+   overriding</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.152in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Abstraction</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0229in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Simplification</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.7298in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-size:12.0pt;color:#424242'><span style=3D'fo=
+nt-family:
+   source-code-pro' lang=3Dja>ABC</span><span style=3D'font-family:"Segoe S=
+ans"'
+   lang=3Dja>, </span><span style=3D'font-family:source-code-pro' lang=3Den=
+-US>@abstractmethod</span></p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#59=
+5959'>&nbsp;</cite></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.2791in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.0236in;width:2.3312=
+in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Python
+Example</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0423in;margin-left:.0236in;width:1.=
+5277in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2025</span><span style=3D'font-family:"MS Gothic"'>年</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"MS Gothic=
+"'>月</span><span
+style=3D'font-family:Calibri'>1</span><span style=3D'font-family:"MS Gothic=
+"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+7:57</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1729in;margin-left:0in;width:6.2791=
+in'>
+
+<ul style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:=
+0in'>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>1.</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Class &amp; Object&nbsp;</=
+span><span
+ style=3D'background:#FAFAFA' lang=3Dja>–</span><span style=3D'background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-style:italic;background:#FAF=
+AFA'
+ lang=3Den-US>Blueprint and House</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Analogy: A</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;class&nbsp;</=
+span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>is like a</span><span style=3D'font-family:"Segoe Sans";fon=
+t-size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;blueprint&nbsp;</span><=
+span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>for a house. An</span><span style=3D'font-family:"Segoe San=
+s";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;object&nbsp;<=
+/span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>is the actual</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;house&nbsp;</=
+span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>built from that blueprint.</span></li>
+ </ul>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> House:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def __init__(self, color, rooms):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>self.color =3D color</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>self.rooms =3D rooms</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>my_house</span><span
+ lang=3Den-US> =3D House(&quot;Blue&quot;, 3)</span></p>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+Calibri;
+ font-size:15.0pt;color:#424242'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>2.</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Encapsulation&nbsp;</span>=
+<span
+ style=3D'background:#FAFAFA' lang=3Dja>–</span><span style=3D'background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-style:italic;background:#FAF=
+AFA'
+ lang=3Den-US>ATM Machine</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Analogy: An</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;ATM&nbsp;</sp=
+an><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>hides the internal banking logic. You just press buttons to
+      withdraw money — you don’t see how it works inside.</span></li>
+ </ul>
+ <p style=3D'margin-top:9pt;margin-bottom:2pt;line-height:21pt;font-family:=
+"Segoe Sans";
+ font-size:15.0pt;color:#424242'><span style=3D'background:#FAFAFA'>Python
+ Example:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>class</span><span
+ lang=3Den-US> ATM:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def __init__(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>self.__balance =3D 1000&nbsp; # private</span></=
+p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def withdraw(self, amount):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>if amount &lt;=3D self.__balance:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>self.__balance -=3D amount</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>return f&quot;Withdrawn: {amount}&quot;</span></=
+p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>return &quot;Insufficient funds&quot;</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>def check_balance(self):</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3D=
+ja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span><span lang=3Den-US>return self.__balance</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>3.</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Inheritance&nbsp;</span><s=
+pan
+ style=3D'background:#FAFAFA' lang=3Dja>–</span><span style=3D'background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-style:italic;background:#FAF=
+AFA'
+ lang=3Den-US>Parent and Child</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Analogy: A</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;child&nbsp;</=
+span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>inherits traits from their</span><span style=3D'font-family=
+:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;parent</span>=
+<span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>, like eye color or language.</span></li>
+ </ul>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA'>Python Example:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Vehicle:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def move(self):</sp=
+an></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Moving...&quot;</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Car(Vehicle):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def honk(self):</sp=
+an></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Beep beep!&quot;</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>4.</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Polymorphism&nbsp;</span><=
+span
+ style=3D'background:#FAFAFA' lang=3Dja>–</span><span style=3D'background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-style:italic;background:#FAF=
+AFA'
+ lang=3Den-US>Remote Control</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>Analogy: A</span><span style=3D'font-family:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;remote
+      control&nbsp;</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Dja>can operate a TV, AC, or fan — same
+      interface, different behavior.</span></li>
+ </ul>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA'>Python Example:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Dog:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def speak(self):</s=
+pan></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Bark&quot;</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Cat:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def speak(self):</s=
+pan></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Meow&quot;</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>def</span><span lang=3Den-US> animal_sound(animal):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>print(animal.speak(=
+))</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>animal_sound</span><span lang=3Den-US>(Dog())&nbsp; # Bark</span=
+></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>animal_sound</span><span lang=3Den-US>(Cat())&nbsp; # Meow</span=
+></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin-top:9pt;margin-bottom:3pt;line-height:24pt;font-family:=
+"Segoe Sans";
+ font-size:18.0pt;color:#424242'><span style=3D'background:#FAFAFA' lang=3D=
+ja>5.</span><span
+ style=3D'background:#FAFAFA' lang=3Den-US>&nbsp;Abstraction&nbsp;</span><s=
+pan
+ style=3D'background:#FAFAFA' lang=3Dja>–</span><span style=3D'background=
+:#FAFAFA'
+ lang=3Den-US>&nbsp;</span><span style=3D'font-style:italic;background:#FAF=
+AFA'
+ lang=3Den-US>Car Driving</span></p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'=
+
+      lang=3Dja>Analogy: You drive a</span><span style=3D'font-family:"Sego=
+e Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;car&nbsp;</sp=
+an><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>without knowing how the engine works. The complexity is hid=
+den.</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.375in'><span style=3D'font-family:Cali=
+bri;
+ font-size:11.0pt' lang=3Dja>Abstraction means</span><span style=3D'font-fa=
+mily:
+ Calibri;font-size:11.0pt' lang=3Den-US>&nbsp;</span><span style=3D'font-fa=
+mily:
+ "Segoe Sans";font-size:12.0pt;color:#424242;background:#FAFAFA' lang=3Den-=
+US>hiding
+ complex implementation details</span><span style=3D'font-family:Calibri;
+ font-size:11.0pt' lang=3Den-US>&nbsp;and showing only the essential featur=
+es of
+ an object.</span></p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA'>Real-World Analogy:</span></p>
+ <p style=3D'margin-left:.375in;margin-top:6pt;margin-bottom:3pt;font-famil=
+y:
+ "Segoe Sans";font-size:12.0pt;color:#424242'><span style=3D'background:#FA=
+FAFA'
+ lang=3Dja>When you</span><span style=3D'background:#FAFAFA' lang=3Den-US>&=
+nbsp;drive
+ a car</span><span style=3D'background:#FAFAFA' lang=3Dja>, you use the ste=
+ering
+ wheel and pedals — you don’t need to know how the engine or transmissi=
+on
+ works.</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:2pt;line-heigh=
+t:
+ 21pt;font-family:"Segoe Sans";font-size:15.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA'>Python Example:</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>from</span><span lang=3Den-US> abc import ABC, abstractmethod</s=
+pan></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Appliance(ABC):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; @</span><span lang=3Den-US>abstractmethod</sp=
+an></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def turn_on(self):<=
+/span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>pass</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> WashingMachine(Appliance):</span=
+></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def turn_on(self):<=
+/span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>return
+ &quot;Washing machine is now running&quot;</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>from</span><span lang=3Den-US> abc import ABC, abstractmethod</s=
+pan></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Vehicle(ABC):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; @</span><span lang=3Den-US>abstractmethod</sp=
+an></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def start_engine(se=
+lf):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>pass</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; @</span><span lang=3Den-US>abstractmethod</sp=
+an></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def stop_engine(sel=
+f):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>pass</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>class</span><span lang=3Den-US> Car(Vehicle):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp; </span><span lang=3Den-US>def start_engine(se=
+lf):</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'><span
+ lang=3Dja>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=3De=
+n-US>print(&quot;Car
+ engine started&quot;)</span></p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Dja>Vehicle</span><span style=3D'font-family:"Segoe Sans";font-=
+size:
+      12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>is an</span><span style=3D'font-family:"Segoe Sans";font-si=
+ze:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;abstract class&nbsp;</span><sp=
+an
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>— it defines</span><span style=3D'font-family:"Segoe Sans=
+";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-style:italic;font-family:"Segoe Sans";font-size:12.0pt;
+      background:#FAFAFA' lang=3Den-US>what</span><span style=3D'font-famil=
+y:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Dja>should be done, not</span><span style=3D'font-family:"Segoe=
+ Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Den-US>&nbsp;</span><span
+      style=3D'font-style:italic;font-family:"Segoe Sans";font-size:12.0pt;
+      background:#FAFAFA' lang=3Den-US>how</span><span style=3D'font-family=
+:"Segoe Sans";
+      font-size:12.0pt;background:#FAFAFA' lang=3Dja>.</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#42=
+4242'><span
+      style=3D'font-family:source-code-pro;font-size:12.0pt;background:#FAF=
+AFA'
+      lang=3Dja>Car</span><span style=3D'font-family:"Segoe Sans";font-size=
+:12.0pt;
+      background:#FAFAFA' lang=3Den-US>&nbsp;</span><span style=3D'font-fam=
+ily:
+      "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>provides =
+the</span><span
+      style=3D'font-family:"Segoe Sans";font-size:12.0pt;background:#FAFAFA'
+      lang=3Den-US>&nbsp;implementation&nbsp;</span><span style=3D'font-fam=
+ily:
+      "Segoe Sans";font-size:12.0pt;background:#FAFAFA' lang=3Dja>of those
+      abstract methods.</span></li>
+ </ul>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin-left:.375in;margin-top:9pt;margin-bottom:3pt;line-heigh=
+t:
+ 24pt;font-family:"Segoe Sans";font-size:18.0pt;color:#424242'><span
+ style=3D'background:#FAFAFA'>Summary Table</span></p>
+ <div style=3D'direction:ltr'>
+ <table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'di=
+rection:ltr;
+  border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-w=
+idth:
+  0pt;margin-left:.3333in' title=3D"" summary=3D"">
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Feature</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.325in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Encapsulation</span></p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0208in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'><span
+   style=3D'font-weight:bold'>Abstraction</span></p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Purpose</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.3444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Protect
+   data from unauthorized access</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0493in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Hide
+   complexity and show essentials</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Focus</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.325in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>How
+   data is accessed</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.1527in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>What
+   operations are available</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Tools
+   in Python</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.325in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Private
+   variables, getters/setters</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0493in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Abstract
+   classes, interfaces</p>
+   </td>
+  </tr>
+  <tr>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:1.1125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Real-world</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.325in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>ATM
+   machine, pill capsule</p>
+   </td>
+   <td style=3D'border-width:0pt;background-color:#FAFAFA;vertical-align:to=
+p;
+   width:2.0493in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+   <p style=3D'margin:0in;font-family:"Segoe Sans";font-size:12.0pt;color:#=
+424242'>Car
+   dashboard, remote control</p>
+   </td>
+  </tr>
+ </table>
+ </div>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11=
+.0pt'
+ lang=3Den-US>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>=
+&nbsp;</p>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>
